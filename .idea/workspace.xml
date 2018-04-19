@@ -1,0 +1,451 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a951b7bb-8d57-4395-9ae0-0aaa42b4d074" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/Features/folder1/file11_CRM_MoveCase_From_OneQueue_To Another.feature" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/Pages/CRMCaseMove_ToAnotherQueuePage.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/Steps/CRMCaseMoveStep.java" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/rtan0001.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_beust_jcommander_1_48.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_1_3_9.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_2.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_errorprone_error_prone_annotations_2_0_18.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_23_0.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_j2objc_j2objc_annotations_1_1.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_10.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__info_cukes_cucumber_core_1_2_5.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__info_cukes_cucumber_html_0_2_3.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__info_cukes_cucumber_java_1_2_5.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__info_cukes_cucumber_junit_1_2_5.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__info_cukes_cucumber_jvm_deps_1_0_5.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__info_cukes_cucumber_picocontainer_1_2_4.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__info_cukes_cucumber_testng_1_2_5.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__info_cukes_gherkin_2_12_2.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_7_5.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_exec_1_3.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_3.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_6.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_beanshell_bsh_2_0b4.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_mojo_animal_sniffer_annotations_1_14.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_picocontainer_picocontainer_2_15.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_api_3_8_1.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_chrome_driver_3_8_1.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_edge_driver_3_8_1.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_firefox_driver_3_8_1.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_ie_driver_3_8_1.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_java_3_8_1.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_opera_driver_3_8_1.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_remote_driver_3_8_1.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_safari_driver_3_8_1.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_support_3_8_1.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_testng_testng_6_9_10.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/AA_Maven_Project2.iml" afterPath="$PROJECT_DIR$/AA_Maven_Project2.iml" />
+      <change beforePath="$PROJECT_DIR$/cucumber/api/annotations.xml" afterPath="$PROJECT_DIR$/cucumber/api/annotations.xml" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Base/BaseUtil.java" afterPath="$PROJECT_DIR$/src/test/java/Base/BaseUtil.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Base/TestBase.java" afterPath="$PROJECT_DIR$/src/test/java/Base/TestBase.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Features/folder1/file10_CRM_Case_To_Email.feature" afterPath="$PROJECT_DIR$/src/test/java/Features/folder1/file10_CRM_Case_To_Email.feature" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Features/folder1/file9_CRM_Email_To_Case.feature" afterPath="$PROJECT_DIR$/src/test/java/Features/folder1/file9_CRM_Email_To_Case.feature" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Features/folder2/file1_GenerateRegoEmail2.feature" afterPath="$PROJECT_DIR$/src/test/java/Features/folder2/file1_GenerateRegoEmail2.feature" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Features/folder2/file2_Mydetails.feature" afterPath="$PROJECT_DIR$/src/test/java/Features/folder2/file2_Mydetails.feature" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Features/folder2/file3_AddCoursePreference.feature" afterPath="$PROJECT_DIR$/src/test/java/Features/folder2/file3_AddCoursePreference.feature" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Features/folder2/file4_AddQualification.feature" afterPath="$PROJECT_DIR$/src/test/java/Features/folder2/file4_AddQualification.feature" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Features/folder2/file5_AddCreditIntention.feature" afterPath="$PROJECT_DIR$/src/test/java/Features/folder2/file5_AddCreditIntention.feature" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Features/folder2/file6_AddWorkExperince.feature" afterPath="$PROJECT_DIR$/src/test/java/Features/folder2/file6_AddWorkExperince.feature" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Features/folder2/file7_AddAdditionalDocuemnts.feature" afterPath="$PROJECT_DIR$/src/test/java/Features/folder2/file7_AddAdditionalDocuemnts.feature" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Features/folder2/file8_SubmitTheApplication.feature" afterPath="$PROJECT_DIR$/src/test/java/Features/folder2/file8_SubmitTheApplication.feature" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Features/folder5/file9_Login.feature" afterPath="$PROJECT_DIR$/src/test/java/Features/folder5/file9_Login.feature" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/AddAdditionalDocumentsPage.java" afterPath="$PROJECT_DIR$/src/test/java/Pages/AddAdditionalDocumentsPage.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/AddCreditIntentionPage.java" afterPath="$PROJECT_DIR$/src/test/java/Pages/AddCreditIntentionPage.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/AddQualificationPage.java" afterPath="$PROJECT_DIR$/src/test/java/Pages/AddQualificationPage.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/AddWorkExperincePage.java" afterPath="$PROJECT_DIR$/src/test/java/Pages/AddWorkExperincePage.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/CRM_CaseToEmail_Page.java" afterPath="$PROJECT_DIR$/src/test/java/Pages/CRM_CaseToEmail_Page.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/CRM_Login_Form_Page.java" afterPath="$PROJECT_DIR$/src/test/java/Pages/CRM_Login_Form_Page.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/CoursePreferencePage.java" afterPath="$PROJECT_DIR$/src/test/java/Pages/CoursePreferencePage.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/GenerateRegoEmailPage.java" afterPath="$PROJECT_DIR$/src/test/java/Pages/GenerateRegoEmailPage.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/LoginPage.java" afterPath="$PROJECT_DIR$/src/test/java/Pages/LoginPage.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/MyDetailsPage.java" afterPath="$PROJECT_DIR$/src/test/java/Pages/MyDetailsPage.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/RegistrationFilePage.java" afterPath="$PROJECT_DIR$/src/test/java/Pages/RegistrationFilePage.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/SendEmail_FromGmailAccountPage.java" afterPath="$PROJECT_DIR$/src/test/java/Pages/SendEmail_FromGmailAccountPage.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/SubmitTheApplicationPage.java" afterPath="$PROJECT_DIR$/src/test/java/Pages/SubmitTheApplicationPage.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/Test1.java" afterPath="$PROJECT_DIR$/src/test/java/Pages/Test1.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/Test2.java" afterPath="$PROJECT_DIR$/src/test/java/Pages/Test2.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Steps/AddAdditionalDocumentsStep.java" afterPath="$PROJECT_DIR$/src/test/java/Steps/AddAdditionalDocumentsStep.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Steps/AddCreditIntentionStep.java" afterPath="$PROJECT_DIR$/src/test/java/Steps/AddCreditIntentionStep.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Steps/AddQualificationStep.java" afterPath="$PROJECT_DIR$/src/test/java/Steps/AddQualificationStep.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Steps/AddWorkExperinceStep.java" afterPath="$PROJECT_DIR$/src/test/java/Steps/AddWorkExperinceStep.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Steps/CRM_CaseToEmail_Step.java" afterPath="$PROJECT_DIR$/src/test/java/Steps/CRM_CaseToEmail_Step.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Steps/CRM_Loginstepdefinition_Step.java" afterPath="$PROJECT_DIR$/src/test/java/Steps/CRM_Loginstepdefinition_Step.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Steps/CoursePreferenceStep.java" afterPath="$PROJECT_DIR$/src/test/java/Steps/CoursePreferenceStep.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Steps/GenerateRegoEmailStep.java" afterPath="$PROJECT_DIR$/src/test/java/Steps/GenerateRegoEmailStep.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Steps/LoginStep.java" afterPath="$PROJECT_DIR$/src/test/java/Steps/LoginStep.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Steps/MyDetailStep.java" afterPath="$PROJECT_DIR$/src/test/java/Steps/MyDetailStep.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Steps/SendEmail_FromGmailAccountStep.java" afterPath="$PROJECT_DIR$/src/test/java/Steps/SendEmail_FromGmailAccountStep.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Steps/SubmitTheApplicationStep.java" afterPath="$PROJECT_DIR$/src/test/java/Steps/SubmitTheApplicationStep.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/runner/TestRunner.java" afterPath="$PROJECT_DIR$/src/test/java/runner/TestRunner.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/runner/testng.xml" afterPath="$PROJECT_DIR$/src/test/java/runner/testng.xml" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-report-html/cucumber-html-reports/CRM_Email_To_Case_to_Link_TheEnquiry_To_ACP_INCRM.html" afterPath="$PROJECT_DIR$/target/cucumber-report-html/cucumber-html-reports/CRM_Email_To_Case_to_Link_TheEnquiry_To_ACP_INCRM.html" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-report-html/cucumber-html-reports/Close_All_The_Tabs_in_CRM.html" afterPath="$PROJECT_DIR$/target/cucumber-report-html/cucumber-html-reports/Close_All_The_Tabs_in_CRM.html" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-report-html/cucumber-html-reports/GMAIL_Login_Test.html" afterPath="$PROJECT_DIR$/target/cucumber-report-html/cucumber-html-reports/GMAIL_Login_Test.html" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-report-html/cucumber-html-reports/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/target/cucumber-report-html/cucumber-html-reports/css/bootstrap.min.css" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-report-html/cucumber-html-reports/css/font-awesome.min.css" afterPath="$PROJECT_DIR$/target/cucumber-report-html/cucumber-html-reports/css/font-awesome.min.css" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-report-html/cucumber-html-reports/css/reporting.css" afterPath="$PROJECT_DIR$/target/cucumber-report-html/cucumber-html-reports/css/reporting.css" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-report-html/cucumber-html-reports/failures-overview.html" afterPath="$PROJECT_DIR$/target/cucumber-report-html/cucumber-html-reports/failures-overview.html" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-report-html/cucumber-html-reports/feature-overview.html" afterPath="$PROJECT_DIR$/target/cucumber-report-html/cucumber-html-reports/feature-overview.html" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-report-html/cucumber-html-reports/file9_CRM_Email_To_Case-feature.html" afterPath="$PROJECT_DIR$/target/cucumber-report-html/cucumber-html-reports/file9_CRM_Email_To_Case-feature.html" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-report-html/cucumber-html-reports/fonts/fontawesome-webfont.svg" afterPath="$PROJECT_DIR$/target/cucumber-report-html/cucumber-html-reports/fonts/fontawesome-webfont.svg" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-report-html/cucumber-html-reports/fonts/glyphicons-halflings-regular.svg" afterPath="$PROJECT_DIR$/target/cucumber-report-html/cucumber-html-reports/fonts/glyphicons-halflings-regular.svg" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-report-html/cucumber-html-reports/js/Chart.min.js" afterPath="$PROJECT_DIR$/target/cucumber-report-html/cucumber-html-reports/js/Chart.min.js" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-report-html/cucumber-html-reports/js/bootstrap.min.js" afterPath="$PROJECT_DIR$/target/cucumber-report-html/cucumber-html-reports/js/bootstrap.min.js" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-report-html/cucumber-html-reports/js/jquery.min.js" afterPath="$PROJECT_DIR$/target/cucumber-report-html/cucumber-html-reports/js/jquery.min.js" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-report-html/cucumber-html-reports/js/jquery.tablesorter.min.js" afterPath="$PROJECT_DIR$/target/cucumber-report-html/cucumber-html-reports/js/jquery.tablesorter.min.js" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-report-html/cucumber-html-reports/step-overview.html" afterPath="$PROJECT_DIR$/target/cucumber-report-html/cucumber-html-reports/step-overview.html" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-report-html/cucumber-html-reports/tag-overview.html" afterPath="$PROJECT_DIR$/target/cucumber-report-html/cucumber-html-reports/tag-overview.html" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber.json" afterPath="$PROJECT_DIR$/target/cucumber.json" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" />
+      <change beforePath="$PROJECT_DIR$/target/site/cucumber-pretty/report.js" afterPath="$PROJECT_DIR$/target/site/cucumber-pretty/report.js" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Command line suite/Command line test.html" afterPath="$PROJECT_DIR$/target/surefire-reports/Command line suite/Command line test.html" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Command line suite/Command line test.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/Command line suite/Command line test.xml" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Command line suite/testng-failed.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/Command line suite/testng-failed.xml" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" afterPath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/index.html" afterPath="$PROJECT_DIR$/target/surefire-reports/index.html" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-runner.TestRunner.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-runner.TestRunner.xml" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Command line suite/classes.html" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Command line suite/classes.html" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Command line suite/groups.html" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Command line suite/groups.html" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Command line suite/index.html" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Command line suite/index.html" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Command line suite/main.html" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Command line suite/main.html" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Command line suite/methods-alphabetical.html" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Command line suite/methods-alphabetical.html" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Command line suite/methods-not-run.html" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Command line suite/methods-not-run.html" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Command line suite/methods.html" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Command line suite/methods.html" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Command line suite/toc.html" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Command line suite/toc.html" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/index.html" afterPath="$PROJECT_DIR$/target/surefire-reports/old/index.html" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-failed.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/testng-failed.xml" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng.css" afterPath="$PROJECT_DIR$/target/surefire-reports/testng.css" />
+    </list>
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="260" />
+    <option name="y" value="20" />
+    <option name="width" value="1400" />
+    <option name="height" value="990" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="AA_JAVA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AA_Maven_Project4" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AA_JAVA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AA_Maven_Project4" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AA_JAVA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AA_Maven_Project4" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AA_JAVA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AA_Maven_Project4" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AA_JAVA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AA_Maven_Project4" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AA_JAVA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AA_Maven_Project4" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Base" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AA_JAVA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AA_Maven_Project4" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Features" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AA_JAVA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AA_Maven_Project4" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Features" type="462c0819:PsiDirectoryNode" />
+              <item name="folder1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AA_JAVA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AA_Maven_Project4" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Features" type="462c0819:PsiDirectoryNode" />
+              <item name="folder2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AA_JAVA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AA_Maven_Project4" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Features" type="462c0819:PsiDirectoryNode" />
+              <item name="folder5" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AA_JAVA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AA_Maven_Project4" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AA_JAVA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AA_Maven_Project4" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="runner" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AA_JAVA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AA_Maven_Project4" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Steps" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a951b7bb-8d57-4395-9ae0-0aaa42b4d074" name="Default" comment="" />
+      <created>1524114274030</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1524114274030</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24947916" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1796875" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

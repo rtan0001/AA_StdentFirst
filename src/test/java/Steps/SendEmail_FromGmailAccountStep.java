@@ -16,9 +16,9 @@ public class SendEmail_FromGmailAccountStep extends BaseUtil {
 
         initialization();
         driver.get("https://www.google.com/gmail/about/#");
-        Thread.sleep(2000);
+        Thread.sleep(1000);
         driver.manage().window().maximize();
-        Thread.sleep(2000);
+        Thread.sleep(1000);
 
     }
 
@@ -28,11 +28,13 @@ public class SendEmail_FromGmailAccountStep extends BaseUtil {
     public void iSendAnOutbondEmailWithAttachmentsToTheAdmissionsTeam() throws Throwable {
 
         gmail_page.Send_OutBound_Email_FromGmailAccount();
-        Thread.sleep(2000);
+        Thread.sleep(4000);
         gmail_page.Compose_Email();
-        Thread.sleep(7000);
+        Thread.sleep(9000);
         gmail_page.LogOut_Gmail();
+        Thread.sleep(2000);
         gmail_page.Singout_Gmail();
+        Thread.sleep(2000);
         gmail_page.Close_broeswr_window();
 
     }
@@ -40,9 +42,9 @@ public class SendEmail_FromGmailAccountStep extends BaseUtil {
     @And("^I given gmail Account username and password hit login$")
     public void iGivenGmailAccountUsernameAndPasswordHitLogin() throws Throwable {
         gmail_page.Click_Signin_From_Gmail();
-        Thread.sleep(4000);
+        Thread.sleep(2000);
         gmail_page.Logon_With_GmailAccount();
-        Thread.sleep(5000);
+        Thread.sleep(8000);
 
     }
 }

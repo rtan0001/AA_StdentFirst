@@ -2,11 +2,11 @@ Feature: CRM Email To Case An Enquiry And Link/unlink ACP to prevent Error Valid
   This feature deals with the Email to Case Link/Unlink ACP to an enquiry to prevent Error Validations
 
 
-  @GMAIL_Login_Test
-  Scenario: User Send an outBound email to Admissions team using their personal account
-    Given I navigate to the gmail Login Page
-    And I given gmail Account username and password hit login
-    Then I Send an outbond Email with attachments to the admissions team
+    @GMAIL_Login_Test
+     Scenario: User Send an outBound email to Admissions team using their personal account
+        Given I navigate to the gmail Login Page
+        And I given gmail Account username and password hit login
+        Then I Send an outbond Email with attachments to the admissions team
 
 
   @CRM_Email_To_Case_to_Link_TheEnquiry_To_ACP_INCRM

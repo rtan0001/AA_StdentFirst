@@ -3,6 +3,389 @@
     "line": 1,
     "elements": [
       {
+        "line": 23,
+        "name": "Search with given keywords into the search field",
+        "description": "",
+        "id": "crm-case-to-email-to-check-send-email-function-works-well-in-crm-and-check-enquiry-status-changed-from-closed-to-open;search-with-given-keywords-into-the-search-field;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 10743496861,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I navigate to the Salesforce URL login page",
+            "match": {
+              "location": "CRM_Loginstepdefinition_Step.iNavigateToTheSalesforceURLLoginPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 291813503,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I enter rupa.tanneero@monash.edu.staging and monash@2017",
+            "match": {
+              "arguments": [
+                {
+                  "val": "rupa.tanneero@monash.edu.staging",
+                  "offset": 8
+                },
+                {
+                  "val": "monash@2017",
+                  "offset": 45
+                }
+              ],
+              "location": "CRM_Loginstepdefinition_Step.iEnterUsernameAndPassword(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4631149200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click on login button",
+            "match": {
+              "location": "CRM_Loginstepdefinition_Step.iClickOnLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 11797736410,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I should see the Salesforce home page",
+            "match": {
+              "location": "CRM_Loginstepdefinition_Step.iShouldSeeTheSalesforceHomePage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 188379295,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I Enter receipt number A-266309 into search field and hit Enter key",
+            "match": {
+              "arguments": [
+                {
+                  "val": "A-266309",
+                  "offset": 23
+                }
+              ],
+              "location": "CRM_Loginstepdefinition_Step.iEnterReceiptNumberNumberIntoSearchFieldAndHitEnterKey(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7233101006,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Click on Application Reference Number link",
+            "match": {
+              "location": "CRM_Loginstepdefinition_Step.clickOnApplicationReferenceNumberLink()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5384450225,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Click on Details link",
+            "match": {
+              "location": "CRM_Loginstepdefinition_Step.clickOnDetailsLink()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6766301661,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I go to Course Preference Grid click on ACPCode Link",
+            "match": {
+              "location": "CRM_CaseToEmail_Step.iGoToCoursePreferenceGridClickOnACPCodeLink()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 24136888395,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I Click on Send Email to communicate with Applicant",
+            "match": {
+              "location": "CRM_CaseToEmail_Step.iClickOnSendEmailToCommunicateWithApplicant()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6200000141,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Applicant should receive an email to confirm an enquiry gets created in CRM",
+            "match": {
+              "location": "CRM_CaseToEmail_Step.applicantShouldReceiveAnEmailToConfirmAnEnquiryGetsCreatedInCRM()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4381516803,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "check the status of the enquiry",
+            "match": {
+              "location": "CRM_CaseToEmail_Step.checkTheStatusOfTheEnquiry()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 310389014,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Close the Enquiry Tab",
+            "match": {
+              "location": "CRM_CaseToEmail_Step.closeTheEnquiryTab()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4987532520,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I logout from the application",
+            "match": {
+              "location": "CRM_Loginstepdefinition_Step.iLogoutFromTheApplication()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@Send_An_Email_From_CRM_TO_Applicant_Email_Account"
+          }
+        ]
+      },
+      {
+        "line": 27,
+        "name": "Applicant Reply back to an email enquiry from their email account",
+        "description": "",
+        "id": "crm-case-to-email-to-check-send-email-function-works-well-in-crm-and-check-enquiry-status-changed-from-closed-to-open;applicant-reply-back-to-an-email-enquiry-from-their-email-account",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 31313480055,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "I Reply back to an email enquiry from Gmail Account",
+            "match": {
+              "location": "CRM_CaseToEmail_Step.iReplyBackToAnEmailEnquiryFromGmailAccount()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7577655083,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "I logout of gmail account",
+            "match": {
+              "location": "CRM_CaseToEmail_Step.iLogoutOfGmailAccount()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 26,
+            "name": "@Reply_ToEmailEnquiry_From_Applicant_Account"
+          }
+        ]
+      },
+      {
+        "line": 33,
+        "name": "Assessors Or Admissions team will check the enquiries which are in open in MU docs queue after the student respond to the reply email",
+        "description": "",
+        "id": "crm-case-to-email-to-check-send-email-function-works-well-in-crm-and-check-enquiry-status-changed-from-closed-to-open;assessors-or-admissions-team-will-check-the-enquiries-which-are-in-open-in-mu-docs-queue-after-the-student-respond-to-the-reply-email",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 17175905820,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "Assessors logon into Salesforce CRM and Navigate to Enquiries",
+            "match": {
+              "location": "CRM_CaseToEmail_Step.assessorsLogonIntoSalesforceCRMAndNavigateToEnquiries()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 11789443916,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "Assessor Select first enquiry From Enquiries list",
+            "match": {
+              "location": "CRM_CaseToEmail_Step.assessorSelectFirstEnquiryFromEnquiriesList()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3281243807,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "Assessor check the status of the Enquiry should be in Open",
+            "match": {
+              "location": "CRM_CaseToEmail_Step.assessorCheckTheStatusOfTheEnquiryShouldBeInOpen()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4784189922,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "I logout from the application",
+            "match": {
+              "location": "CRM_Loginstepdefinition_Step.iLogoutFromTheApplication()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 32,
+            "name": "@CRM_TheEnquiry_Gets_Updated_With_The_Latest_Changes_StatusUpdates"
+          }
+        ]
+      }
+    ],
+    "name": "CRM Case To Email to check Send Email function works well in CRM and check enquiry status changed from Closed to Open",
+    "description": "This feature deals with Case To Email",
+    "id": "crm-case-to-email-to-check-send-email-function-works-well-in-crm-and-check-enquiry-status-changed-from-closed-to-open",
+    "keyword": "Feature",
+    "uri": "file10_CRM_Case_To_Email.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 5,
+        "name": "Move cases from one queue to another queue",
+        "description": "",
+        "id": "crm-move-case-from-one-queue-to-another-queue;move-cases-from-one-queue-to-another-queue",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 14391472240,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I logon into salesforce CRM",
+            "match": {
+              "location": "CRMCaseMoveStep.iLogonIntoSalesforceCRM()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 14797159882,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I select enquiry from MU Docs queue and change its owner to MC Docs",
+            "match": {
+              "location": "CRMCaseMoveStep.iSelectEnquiryFromMUDocsQueueAndChangeItsOwnerToMCDocs()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 68760,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I go to MC Docs queue check the enquiry owner changed to MC Docs",
+            "match": {
+              "location": "CRMCaseMoveStep.iGoToMCDocsQueueCheckTheEnquiryOwnerChangedToMCDocs()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 54303,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I logout of the application",
+            "match": {
+              "location": "CRMCaseMoveStep.iLogoutOfTheApplication()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@CRM_Move_Cases_From_One_Queue_To_Others_Queue"
+          }
+        ]
+      }
+    ],
+    "name": "CRM Move case from one queue to another queue",
+    "description": "This feature deals with move cases from one queue to another queue",
+    "id": "crm-move-case-from-one-queue-to-another-queue",
+    "keyword": "Feature",
+    "uri": "file11_CRM_MoveCase_From_OneQueue_To Another.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
         "line": 6,
         "name": "User Send an outBound email to Admissions team using their personal account",
         "description": "",
@@ -12,7 +395,7 @@
         "steps": [
           {
             "result": {
-              "duration": 30827338544,
+              "duration": 7633135844,
               "status": "passed"
             },
             "line": 7,
@@ -24,7 +407,7 @@
           },
           {
             "result": {
-              "duration": 14481787475,
+              "duration": 14234638416,
               "status": "passed"
             },
             "line": 8,
@@ -36,7 +419,7 @@
           },
           {
             "result": {
-              "duration": 42472829732,
+              "duration": 54916372642,
               "status": "passed"
             },
             "line": 9,
@@ -64,7 +447,7 @@
         "steps": [
           {
             "result": {
-              "duration": 11192676148,
+              "duration": 9701283667,
               "status": "passed"
             },
             "line": 14,
@@ -76,7 +459,7 @@
           },
           {
             "result": {
-              "duration": 327120452,
+              "duration": 307167857,
               "status": "passed"
             },
             "line": 15,
@@ -98,11 +481,11 @@
               0,
               1
             ],
-            "keyword": "And "
+            "keyword": "When "
           },
           {
             "result": {
-              "duration": 6540234054,
+              "duration": 4753466755,
               "status": "passed"
             },
             "line": 16,
@@ -114,19 +497,19 @@
           },
           {
             "result": {
-              "duration": 11866543325,
+              "duration": 11955629143,
               "status": "passed"
             },
             "line": 17,
-            "name": "I should see the Salesfroce home page",
+            "name": "I should see the Salesforce home page",
             "match": {
-              "location": "CRM_Loginstepdefinition_Step.iShouldSeeTheSalesfroceHomePage()"
+              "location": "CRM_Loginstepdefinition_Step.iShouldSeeTheSalesforceHomePage()"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 330457155,
+              "duration": 199729331,
               "status": "passed"
             },
             "line": 18,
@@ -147,7 +530,7 @@
           },
           {
             "result": {
-              "duration": 7299816171,
+              "duration": 7252643393,
               "status": "passed"
             },
             "line": 19,
@@ -159,7 +542,7 @@
           },
           {
             "result": {
-              "duration": 5410236451,
+              "duration": 5371210513,
               "status": "passed"
             },
             "line": 20,
@@ -171,7 +554,7 @@
           },
           {
             "result": {
-              "duration": 150114138,
+              "duration": 298198339,
               "status": "passed"
             },
             "line": 21,
@@ -183,7 +566,7 @@
           },
           {
             "result": {
-              "duration": 10720916940,
+              "duration": 10900688238,
               "status": "passed"
             },
             "line": 22,
@@ -195,7 +578,7 @@
           },
           {
             "result": {
-              "duration": 5990424890,
+              "duration": 6148559313,
               "status": "passed"
             },
             "line": 23,
@@ -207,7 +590,7 @@
           },
           {
             "result": {
-              "duration": 6218324906,
+              "duration": 6168812223,
               "status": "passed"
             },
             "line": 24,
@@ -219,7 +602,7 @@
           },
           {
             "result": {
-              "duration": 5045720687,
+              "duration": 5115473963,
               "status": "passed"
             },
             "line": 25,
@@ -231,7 +614,7 @@
           },
           {
             "result": {
-              "duration": 4477967615,
+              "duration": 4798333743,
               "status": "passed"
             },
             "line": 26,
@@ -259,7 +642,7 @@
         "steps": [
           {
             "result": {
-              "duration": 405094620,
+              "duration": 407476468,
               "status": "passed"
             },
             "line": 38,
@@ -268,6 +651,18 @@
               "location": "CRM_Loginstepdefinition_Step.iNavigateToCloseAllTheTabs()"
             },
             "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4790899166,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "I logout from the application",
+            "match": {
+              "location": "CRM_Loginstepdefinition_Step.iLogoutFromTheApplication()"
+            },
+            "keyword": "Then "
           }
         ],
         "tags": [

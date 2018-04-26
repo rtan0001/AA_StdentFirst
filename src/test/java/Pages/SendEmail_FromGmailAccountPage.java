@@ -61,10 +61,10 @@ public class SendEmail_FromGmailAccountPage extends BaseUtil{
         driver.findElement(By.xpath("//*[@class='a1 aaA aMZ']")).click();
 
         Runtime.getRuntime().exec("C:\\Users\\rtan0001\\Downloads\\AutoIT\\test.exe");
-        Thread.sleep(15000);
+        Thread.sleep(12000);
         driver.findElement(By.xpath("//*[@class='a8X gU']/div/input")).click();
         Runtime.getRuntime().exec("C:\\Users\\rtan0001\\Downloads\\AutoIT\\test2.exe");
-        Thread.sleep(14000);
+        Thread.sleep(17000);
         driver.findElement(By.xpath("//*[@class='T-I J-J5-Ji aoO T-I-atl L3']")).click();
 
     }
@@ -72,14 +72,14 @@ public class SendEmail_FromGmailAccountPage extends BaseUtil{
     public void LogOut_Gmail() throws InterruptedException {
 
 
-        driver.findElement(By.xpath("//*[@class='gb_Ec gb_Lg gb_R']/div[5]/div[1]/a/span")).click();
+        driver.findElement(By.xpath("//*[@class='gb_Ec gb_Mg gb_R']/div[5]/div[1]/a/span")).click();
         Thread.sleep(1000);
 
     }
 
     public void Singout_Gmail() throws InterruptedException {
-        driver.findElement(By.xpath("//*[@class='gb_Ea gb_Wf gb_4f gb_Le gb_Jb']")).click();
-        Thread.sleep(3000);
+        driver.findElement(By.xpath("//*[@class='gb_Ea gb_Xf gb_5f gb_Me gb_Jb']")).click();
+        Thread.sleep(2000);
     }
 
     public void Close_broeswr_window()

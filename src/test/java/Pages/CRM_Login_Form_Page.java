@@ -12,6 +12,8 @@ import org.openqa.selenium.support.PageFactory;
 import java.io.IOException;
 import java.util.List;
 
+import static java.lang.Thread.*;
+
 public class CRM_Login_Form_Page extends BaseUtil {
 
     GenerateRegoEmailPage reg_email = new GenerateRegoEmailPage(driver);
@@ -72,7 +74,7 @@ public class CRM_Login_Form_Page extends BaseUtil {
 
 
         driver.switchTo().frame("ext-comp-1013");
-        Thread.sleep(2000);
+        sleep(2000);
         WebElement element = driver.findElement(By.xpath("/html/body/div[2]"));
         WebElement no_tables = element.findElement(By.tagName("table"));
 
@@ -107,7 +109,7 @@ public class CRM_Login_Form_Page extends BaseUtil {
         driver.switchTo().frame("ext-comp-1018");
 
 //      driver.switchTo().frame("//*[@id='ext-comp-1018']");
-        Thread.sleep(2000);
+        sleep(2000);
         WebElement ele = driver.findElement(By.xpath("/html/body"));
         WebElement under_list = ele.findElement(By.tagName("ul"));
         List<WebElement> list_items = under_list.findElements(By.tagName("li"));
@@ -143,7 +145,7 @@ public class CRM_Login_Form_Page extends BaseUtil {
     public void Logon_With_GmailAccount() throws InterruptedException {
         driver.findElement(By.xpath("//*[@type='email']")).sendKeys("rupa.testingstuff@gmail.com");
         driver.findElement(By.xpath("//*[@id='identifierNext']/content/span")).click();
-        Thread.sleep(2000);
+        sleep(2000);
         driver.findElement(By.xpath("//*[@type='password']")).sendKeys("Venkateswararao1");
         driver.findElement(By.xpath("//*[@id='passwordNext']/content/span")).click();
 
@@ -162,7 +164,7 @@ public class CRM_Login_Form_Page extends BaseUtil {
         driver.findElement(By.xpath("//*[@class='Am Al editable LW-avf']")).sendKeys("TestEmail From My Gmail Account");
         driver.findElement(By.xpath("//*[@class='a1 aaA aMZ']")).click();
         Runtime.getRuntime().exec("C:\\Users\\rtan0001\\Downloads\\AutoIT\\test.exe");
-        Thread.sleep(10000);
+        sleep(10000);
         driver.findElement(By.xpath("//*[@class='T-I J-J5-Ji aoO T-I-atl L3']")).click();
 
     }
@@ -171,14 +173,14 @@ public class CRM_Login_Form_Page extends BaseUtil {
 
 
         driver.findElement(By.xpath("//*[@class='gb_Ec gb_Lg gb_R']/div[5]/div[1]/a/span")).click();
-        Thread.sleep(1000);
+        sleep(1000);
 
     }
 
 
     public void Singout_Gmail() throws InterruptedException {
         driver.findElement(By.xpath("//*[@class='gb_Ea gb_Wf gb_4f gb_Le gb_Jb']")).click();
-        Thread.sleep(5000);
+        sleep(5000);
     }
 
     public void Close_broeswr_window() {
@@ -345,7 +347,7 @@ public class CRM_Login_Form_Page extends BaseUtil {
                        if(k==1)
                        {
                            no_cols.get(k).click();
-                           Thread.sleep(300);
+                           sleep(300);
                            no_cols.get(k).sendKeys(Keys.ENTER, acpcode);
                            break label1 ;
                        }
@@ -559,20 +561,21 @@ public class CRM_Login_Form_Page extends BaseUtil {
     }
 
 
-public void Click_Logout()
-{
-     driver.findElement(By.xpath("//*[@id='userNavLabel']")).click();
+   public void Click_Logout() {
 
-     driver.findElement(By.xpath("//*[@id='app_logout']")).click();
+           driver.switchTo().parentFrame();
+          driver.findElement(By.xpath("//*[@id='userNavLabel']")).click();
+          driver.findElement(By.xpath("//*[@id='app_logout']")).click();
 
-}
-public void Tear_Down()
-{
-    driver.quit();
-}
+        }
+     public void Tear_Down()
+      {
+
+        driver.quit();
+      }
 
 
-}
+     }
 
 
 

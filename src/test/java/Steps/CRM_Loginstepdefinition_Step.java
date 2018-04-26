@@ -210,7 +210,9 @@ public class CRM_Loginstepdefinition_Step extends BaseUtil {
 
     @Then("^I logout from the application$")
     public void iLogoutFromTheApplication() throws Throwable {
+        Thread.sleep(1000);
         CRM_Login_Page.Click_Logout();
+        Thread.sleep(1000);
         CRM_Login_Page.Tear_Down();
     }
 

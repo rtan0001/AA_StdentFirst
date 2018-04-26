@@ -148,7 +148,7 @@ public class CRM_CaseToEmail_Step extends BaseUtil {
 
         Enq_status =  App_Page.Get_Enquiry_Status_FromEnquiryGrid();
         Assert.assertEquals(Enq_status, "Open");
-        Thread.sleep(2000);
+        Thread.sleep(3000);
 
     }
 

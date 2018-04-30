@@ -74,9 +74,9 @@ $(document).ready(function() {
         </thead>
         <tbody>
           <tr class="info">
-            <td>AA_JAVA</td>
+            <td>AutomationExecution</td>
                           <td>1</td>
-                        <td>20 Apr 2018, 21:31</td>
+                        <td>26 Apr 2018, 14:49</td>
           </tr>
         </tbody>
       </table>
@@ -123,17 +123,17 @@ $(document).ready(function() {
         <tbody>
         <tr>
           <td class="tagname">@Send_An_Email_From_CRM_TO_Applicant_Email_Account</td>
-                    <td >0</td>
-          <td  class="failed"    >1</td>
+                    <td  class="passed"    >1</td>
+          <td >0</td>
           <td class="total">1</td>
-          <td      class="passed"    >5</td>
-          <td      class="failed"    >1</td>
-          <td     class="skipped"   >7</td>
+          <td      class="passed"    >13</td>
+          <td >0</td>
+          <td >0</td>
           <td >0</td>
           <td >0</td>
           <td class="total">13</td>
-          <td class="duration" data-value="28891331698">28s 891ms</td>
-          <td class="failed">Failed</td>
+          <td class="duration" data-value="84358821062">1m 24s 358ms</td>
+          <td class="passed">Passed</td>
         </tr>
         </tbody>
 
@@ -161,9 +161,9 @@ $(document).ready(function() {
   </div>
 
 
-    <span data-toggle="collapse" class=" collapsable-control" data-target="#element-1">
+    <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-1">
     
-<div class="brief failed">
+<div class="brief passed">
   <span class="keyword indention">Scenario Outline</span>
   <span class="name">Search with given keywords into the search field</span>
   
@@ -174,15 +174,15 @@ $(document).ready(function() {
   </span>
   <div class="description indention"></div>
 
-  <div id="element-1" class="collapse collapsable-details  in ">
+  <div id="element-1" class="collapse collapsable-details ">
     
 
 
     
 <div class="steps inner-level">
-    <div data-toggle="collapse" class=" collapsable-control" data-target="#steps-2">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-2">
     
-<div class="brief failed">
+<div class="brief passed">
   <span class="keyword indention">Steps</span>
   <span class="name"></span>
   
@@ -192,14 +192,14 @@ $(document).ready(function() {
 
   </div>
 
-  <div id="steps-2" class="inner-level collapse collapsable-details  in ">
+  <div id="steps-2" class="inner-level collapse collapsable-details ">
           <div class="step">
         
 <div class="brief passed">
   <span class="keyword indention">Given</span>
   <span class="name">I navigate to the Salesforce URL login page</span>
   
-  <span class="lead-duration duration">10s 830ms</span>
+  <span class="lead-duration duration">10s 365ms</span>
 
   </div>
 
@@ -220,7 +220,7 @@ $(document).ready(function() {
   <span class="keyword indention">And</span>
   <span class="name">I enter rupa.tanneero@monash.edu.staging and monash@2017</span>
   
-  <span class="lead-duration duration">285ms</span>
+  <span class="lead-duration duration">230ms</span>
 
   </div>
 
@@ -241,7 +241,7 @@ $(document).ready(function() {
   <span class="keyword indention">And</span>
   <span class="name">I click on login button</span>
   
-  <span class="lead-duration duration">4s 455ms</span>
+  <span class="lead-duration duration">4s 200ms</span>
 
   </div>
 
@@ -262,7 +262,7 @@ $(document).ready(function() {
   <span class="keyword indention">Then</span>
   <span class="name">I should see the Salesforce home page</span>
   
-  <span class="lead-duration duration">13s 105ms</span>
+  <span class="lead-duration duration">10s 986ms</span>
 
   </div>
 
@@ -283,7 +283,7 @@ $(document).ready(function() {
   <span class="keyword indention">Given</span>
   <span class="name">I Enter receipt number A-266309 into search field and hit Enter key</span>
   
-  <span class="lead-duration duration">180ms</span>
+  <span class="lead-duration duration">170ms</span>
 
   </div>
 
@@ -300,34 +300,15 @@ $(document).ready(function() {
       </div>
           <div class="step">
         
-<div class="brief failed">
+<div class="brief passed">
   <span class="keyword indention">Then</span>
   <span class="name">Click on Application Reference Number link</span>
   
-  <span class="lead-duration duration">033ms</span>
+  <span class="lead-duration duration">7s 355ms</span>
 
   </div>
 
         
-
-  <div class="inner-level">
-    <div class="message indention">
-      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-3">
-          <a>Error message</a>
-      </div>
-      <div id="msg-3" class="collapse collapsable-details">
-        <pre>org.openqa.selenium.NoSuchFrameException: No frame element found by name or id ext-comp-1013
-Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
-System info: host: 'MU00142059', ip: '49.127.73.237', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
-Driver info: driver.version: unknown
-	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.frame(RemoteWebDriver.java:940)
-	at Pages.CRM_Login_Form_Page.Click_Application_Reference_Link(CRM_Login_Form_Page.java:74)
-	at Steps.CRM_Loginstepdefinition_Step.clickOnApplicationReferenceNumberLink(CRM_Loginstepdefinition_Step.java:91)
-	at ✽.Then Click on Application Reference Number link(file10_CRM_Case_To_Email.feature:11)
-</pre>
-      </div>
-    </div>
-  </div>
 
 
         
@@ -340,11 +321,11 @@ Driver info: driver.version: unknown
       </div>
           <div class="step">
         
-<div class="brief skipped">
+<div class="brief passed">
   <span class="keyword indention">And</span>
   <span class="name">Click on Details link</span>
   
-  <span class="lead-duration duration">000ms</span>
+  <span class="lead-duration duration">5s 330ms</span>
 
   </div>
 
@@ -361,11 +342,11 @@ Driver info: driver.version: unknown
       </div>
           <div class="step">
         
-<div class="brief skipped">
+<div class="brief passed">
   <span class="keyword indention">And</span>
   <span class="name">I go to Course Preference Grid click on ACPCode Link</span>
   
-  <span class="lead-duration duration">000ms</span>
+  <span class="lead-duration duration">6s 509ms</span>
 
   </div>
 
@@ -382,11 +363,11 @@ Driver info: driver.version: unknown
       </div>
           <div class="step">
         
-<div class="brief skipped">
+<div class="brief passed">
   <span class="keyword indention">And</span>
   <span class="name">I Click on Send Email to communicate with Applicant</span>
   
-  <span class="lead-duration duration">000ms</span>
+  <span class="lead-duration duration">24s 027ms</span>
 
   </div>
 
@@ -403,11 +384,11 @@ Driver info: driver.version: unknown
       </div>
           <div class="step">
         
-<div class="brief skipped">
+<div class="brief passed">
   <span class="keyword indention">And</span>
   <span class="name">Applicant should receive an email to confirm an enquiry gets created in CRM</span>
   
-  <span class="lead-duration duration">000ms</span>
+  <span class="lead-duration duration">6s 050ms</span>
 
   </div>
 
@@ -424,11 +405,11 @@ Driver info: driver.version: unknown
       </div>
           <div class="step">
         
-<div class="brief skipped">
+<div class="brief passed">
   <span class="keyword indention">Then</span>
   <span class="name">check the status of the enquiry</span>
   
-  <span class="lead-duration duration">000ms</span>
+  <span class="lead-duration duration">4s 257ms</span>
 
   </div>
 
@@ -445,11 +426,11 @@ Driver info: driver.version: unknown
       </div>
           <div class="step">
         
-<div class="brief skipped">
+<div class="brief passed">
   <span class="keyword indention">Then</span>
   <span class="name">Close the Enquiry Tab</span>
   
-  <span class="lead-duration duration">000ms</span>
+  <span class="lead-duration duration">285ms</span>
 
   </div>
 
@@ -466,11 +447,11 @@ Driver info: driver.version: unknown
       </div>
           <div class="step">
         
-<div class="brief skipped">
+<div class="brief passed">
   <span class="keyword indention">Then</span>
   <span class="name">I logout from the application</span>
   
-  <span class="lead-duration duration">000ms</span>
+  <span class="lead-duration duration">4s 590ms</span>
 
   </div>
 

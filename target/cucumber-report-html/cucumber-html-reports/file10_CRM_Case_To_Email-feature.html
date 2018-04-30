@@ -74,9 +74,9 @@ $(document).ready(function() {
         </thead>
         <tbody>
           <tr class="info">
-            <td>AA_JAVA</td>
+            <td>AutomationExecution</td>
                           <td>1</td>
-                        <td>20 Apr 2018, 21:31</td>
+                        <td>26 Apr 2018, 14:49</td>
           </tr>
         </tbody>
       </table>
@@ -123,17 +123,17 @@ $(document).ready(function() {
         <tbody>
         <tr>
           <td class="tagname">CRM Case To Email to check Send Email function works well in CRM and check enquiry status changed from Closed to Open</td>
-                    <td >0</td>
-          <td  class="failed"    >3</td>
+                    <td  class="passed"    >3</td>
+          <td >0</td>
           <td class="total">3</td>
-          <td      class="passed"    >5</td>
-          <td      class="failed"    >3</td>
-          <td     class="skipped"   >11</td>
+          <td      class="passed"    >19</td>
+          <td >0</td>
+          <td >0</td>
           <td >0</td>
           <td >0</td>
           <td class="total">19</td>
-          <td class="duration" data-value="57716672978">57s 716ms</td>
-          <td class="failed">Failed</td>
+          <td class="duration" data-value="159619137220">2m 39s 619ms</td>
+          <td class="passed">Passed</td>
         </tr>
         </tbody>
 
@@ -153,7 +153,7 @@ $(document).ready(function() {
   </div>
 
         
-<div class="brief failed">
+<div class="brief passed">
   <span class="keyword indention">Feature</span>
   <span class="name">CRM Case To Email to check Send Email function works well in CRM and check enquiry status changed from Closed to Open</span>
   
@@ -172,9 +172,9 @@ $(document).ready(function() {
   </div>
 
 
-    <span data-toggle="collapse" class=" collapsable-control" data-target="#element-1">
+    <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-1">
     
-<div class="brief failed">
+<div class="brief passed">
   <span class="keyword indention">Scenario Outline</span>
   <span class="name">Search with given keywords into the search field</span>
   
@@ -185,15 +185,15 @@ $(document).ready(function() {
   </span>
   <div class="description indention"></div>
 
-  <div id="element-1" class="collapse collapsable-details  in ">
+  <div id="element-1" class="collapse collapsable-details ">
     
 
 
     
 <div class="steps inner-level">
-    <div data-toggle="collapse" class=" collapsable-control" data-target="#steps-2">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-2">
     
-<div class="brief failed">
+<div class="brief passed">
   <span class="keyword indention">Steps</span>
   <span class="name"></span>
   
@@ -203,14 +203,14 @@ $(document).ready(function() {
 
   </div>
 
-  <div id="steps-2" class="inner-level collapse collapsable-details  in ">
+  <div id="steps-2" class="inner-level collapse collapsable-details ">
           <div class="step">
         
 <div class="brief passed">
   <span class="keyword indention">Given</span>
   <span class="name">I navigate to the Salesforce URL login page</span>
   
-  <span class="lead-duration duration">10s 830ms</span>
+  <span class="lead-duration duration">10s 365ms</span>
 
   </div>
 
@@ -231,7 +231,7 @@ $(document).ready(function() {
   <span class="keyword indention">And</span>
   <span class="name">I enter rupa.tanneero@monash.edu.staging and monash@2017</span>
   
-  <span class="lead-duration duration">285ms</span>
+  <span class="lead-duration duration">230ms</span>
 
   </div>
 
@@ -252,7 +252,7 @@ $(document).ready(function() {
   <span class="keyword indention">And</span>
   <span class="name">I click on login button</span>
   
-  <span class="lead-duration duration">4s 455ms</span>
+  <span class="lead-duration duration">4s 200ms</span>
 
   </div>
 
@@ -273,7 +273,7 @@ $(document).ready(function() {
   <span class="keyword indention">Then</span>
   <span class="name">I should see the Salesforce home page</span>
   
-  <span class="lead-duration duration">13s 105ms</span>
+  <span class="lead-duration duration">10s 986ms</span>
 
   </div>
 
@@ -294,7 +294,7 @@ $(document).ready(function() {
   <span class="keyword indention">Given</span>
   <span class="name">I Enter receipt number A-266309 into search field and hit Enter key</span>
   
-  <span class="lead-duration duration">180ms</span>
+  <span class="lead-duration duration">170ms</span>
 
   </div>
 
@@ -311,34 +311,15 @@ $(document).ready(function() {
       </div>
           <div class="step">
         
-<div class="brief failed">
+<div class="brief passed">
   <span class="keyword indention">Then</span>
   <span class="name">Click on Application Reference Number link</span>
   
-  <span class="lead-duration duration">033ms</span>
+  <span class="lead-duration duration">7s 355ms</span>
 
   </div>
 
         
-
-  <div class="inner-level">
-    <div class="message indention">
-      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-3">
-          <a>Error message</a>
-      </div>
-      <div id="msg-3" class="collapse collapsable-details">
-        <pre>org.openqa.selenium.NoSuchFrameException: No frame element found by name or id ext-comp-1013
-Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
-System info: host: 'MU00142059', ip: '49.127.73.237', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
-Driver info: driver.version: unknown
-	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.frame(RemoteWebDriver.java:940)
-	at Pages.CRM_Login_Form_Page.Click_Application_Reference_Link(CRM_Login_Form_Page.java:74)
-	at Steps.CRM_Loginstepdefinition_Step.clickOnApplicationReferenceNumberLink(CRM_Loginstepdefinition_Step.java:91)
-	at ✽.Then Click on Application Reference Number link(file10_CRM_Case_To_Email.feature:11)
-</pre>
-      </div>
-    </div>
-  </div>
 
 
         
@@ -351,11 +332,11 @@ Driver info: driver.version: unknown
       </div>
           <div class="step">
         
-<div class="brief skipped">
+<div class="brief passed">
   <span class="keyword indention">And</span>
   <span class="name">Click on Details link</span>
   
-  <span class="lead-duration duration">000ms</span>
+  <span class="lead-duration duration">5s 330ms</span>
 
   </div>
 
@@ -372,11 +353,11 @@ Driver info: driver.version: unknown
       </div>
           <div class="step">
         
-<div class="brief skipped">
+<div class="brief passed">
   <span class="keyword indention">And</span>
   <span class="name">I go to Course Preference Grid click on ACPCode Link</span>
   
-  <span class="lead-duration duration">000ms</span>
+  <span class="lead-duration duration">6s 509ms</span>
 
   </div>
 
@@ -393,11 +374,11 @@ Driver info: driver.version: unknown
       </div>
           <div class="step">
         
-<div class="brief skipped">
+<div class="brief passed">
   <span class="keyword indention">And</span>
   <span class="name">I Click on Send Email to communicate with Applicant</span>
   
-  <span class="lead-duration duration">000ms</span>
+  <span class="lead-duration duration">24s 027ms</span>
 
   </div>
 
@@ -414,11 +395,11 @@ Driver info: driver.version: unknown
       </div>
           <div class="step">
         
-<div class="brief skipped">
+<div class="brief passed">
   <span class="keyword indention">And</span>
   <span class="name">Applicant should receive an email to confirm an enquiry gets created in CRM</span>
   
-  <span class="lead-duration duration">000ms</span>
+  <span class="lead-duration duration">6s 050ms</span>
 
   </div>
 
@@ -435,11 +416,11 @@ Driver info: driver.version: unknown
       </div>
           <div class="step">
         
-<div class="brief skipped">
+<div class="brief passed">
   <span class="keyword indention">Then</span>
   <span class="name">check the status of the enquiry</span>
   
-  <span class="lead-duration duration">000ms</span>
+  <span class="lead-duration duration">4s 257ms</span>
 
   </div>
 
@@ -456,11 +437,11 @@ Driver info: driver.version: unknown
       </div>
           <div class="step">
         
-<div class="brief skipped">
+<div class="brief passed">
   <span class="keyword indention">Then</span>
   <span class="name">Close the Enquiry Tab</span>
   
-  <span class="lead-duration duration">000ms</span>
+  <span class="lead-duration duration">285ms</span>
 
   </div>
 
@@ -477,11 +458,11 @@ Driver info: driver.version: unknown
       </div>
           <div class="step">
         
-<div class="brief skipped">
+<div class="brief passed">
   <span class="keyword indention">Then</span>
   <span class="name">I logout from the application</span>
   
-  <span class="lead-duration duration">000ms</span>
+  <span class="lead-duration duration">4s 590ms</span>
 
   </div>
 
@@ -514,9 +495,9 @@ Driver info: driver.version: unknown
   </div>
 
 
-    <span data-toggle="collapse" class=" collapsable-control" data-target="#element-4">
+    <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-3">
     
-<div class="brief failed">
+<div class="brief passed">
   <span class="keyword indention">Scenario</span>
   <span class="name">Applicant Reply back to an email enquiry from their email account</span>
   
@@ -527,15 +508,15 @@ Driver info: driver.version: unknown
   </span>
   <div class="description indention"></div>
 
-  <div id="element-4" class="collapse collapsable-details  in ">
+  <div id="element-3" class="collapse collapsable-details ">
     
 
 
     
 <div class="steps inner-level">
-    <div data-toggle="collapse" class=" collapsable-control" data-target="#steps-5">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-4">
     
-<div class="brief failed">
+<div class="brief passed">
   <span class="keyword indention">Steps</span>
   <span class="name"></span>
   
@@ -545,60 +526,18 @@ Driver info: driver.version: unknown
 
   </div>
 
-  <div id="steps-5" class="inner-level collapse collapsable-details  in ">
+  <div id="steps-4" class="inner-level collapse collapsable-details ">
           <div class="step">
         
-<div class="brief failed">
+<div class="brief passed">
   <span class="keyword indention">Given</span>
   <span class="name">I Reply back to an email enquiry from Gmail Account</span>
   
-  <span class="lead-duration duration">13s 979ms</span>
+  <span class="lead-duration duration">30s 784ms</span>
 
   </div>
 
         
-
-  <div class="inner-level">
-    <div class="message indention">
-      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-6">
-          <a>Error message</a>
-      </div>
-      <div id="msg-6" class="collapse collapsable-details">
-        <pre>org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=66.0.3359.117)
-  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
-System info: host: 'MU00142059', ip: '49.127.73.237', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\rtan0001\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.117, webStorageEnabled: true}
-Session ID: 27b2be75235e9423750753864ea38a32
-*** Element info: {Using=xpath, value=/html/body}
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
-	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:371)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:473)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
-	at Pages.SendEmail_FromGmailAccountPage.Click_Signin_From_Gmail(SendEmail_FromGmailAccountPage.java:26)
-	at Steps.SendEmail_FromGmailAccountStep.iGivenGmailAccountUsernameAndPasswordHitLogin(SendEmail_FromGmailAccountStep.java:42)
-	at Steps.CRM_CaseToEmail_Step.iReplyBackToAnEmailEnquiryFromGmailAccount(CRM_CaseToEmail_Step.java:92)
-	at ✽.Given I Reply back to an email enquiry from Gmail Account(file10_CRM_Case_To_Email.feature:28)
-</pre>
-      </div>
-    </div>
-  </div>
 
 
         
@@ -611,11 +550,11 @@ Session ID: 27b2be75235e9423750753864ea38a32
       </div>
           <div class="step">
         
-<div class="brief skipped">
+<div class="brief passed">
   <span class="keyword indention">And</span>
   <span class="name">I logout of gmail account</span>
   
-  <span class="lead-duration duration">000ms</span>
+  <span class="lead-duration duration">7s 896ms</span>
 
   </div>
 
@@ -648,9 +587,9 @@ Session ID: 27b2be75235e9423750753864ea38a32
   </div>
 
 
-    <span data-toggle="collapse" class=" collapsable-control" data-target="#element-7">
+    <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-5">
     
-<div class="brief failed">
+<div class="brief passed">
   <span class="keyword indention">Scenario</span>
   <span class="name">Assessors Or Admissions team will check the enquiries which are in open in MU docs queue after the student respond to the reply email</span>
   
@@ -661,15 +600,15 @@ Session ID: 27b2be75235e9423750753864ea38a32
   </span>
   <div class="description indention"></div>
 
-  <div id="element-7" class="collapse collapsable-details  in ">
+  <div id="element-5" class="collapse collapsable-details ">
     
 
 
     
 <div class="steps inner-level">
-    <div data-toggle="collapse" class=" collapsable-control" data-target="#steps-8">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-6">
     
-<div class="brief failed">
+<div class="brief passed">
   <span class="keyword indention">Steps</span>
   <span class="name"></span>
   
@@ -679,59 +618,18 @@ Session ID: 27b2be75235e9423750753864ea38a32
 
   </div>
 
-  <div id="steps-8" class="inner-level collapse collapsable-details  in ">
+  <div id="steps-6" class="inner-level collapse collapsable-details ">
           <div class="step">
         
-<div class="brief failed">
+<div class="brief passed">
   <span class="keyword indention">Given</span>
   <span class="name">Assessors logon into Salesforce CRM and Navigate to Enquiries</span>
   
-  <span class="lead-duration duration">14s 846ms</span>
+  <span class="lead-duration duration">16s 993ms</span>
 
   </div>
 
         
-
-  <div class="inner-level">
-    <div class="message indention">
-      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-9">
-          <a>Error message</a>
-      </div>
-      <div id="msg-9" class="collapse collapsable-details">
-        <pre>org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=66.0.3359.117)
-  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
-System info: host: 'MU00142059', ip: '49.127.73.237', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\rtan0001\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.117, webStorageEnabled: true}
-Session ID: 3a59e77c1bbd16233c3ba569e09836a6
-*** Element info: {Using=xpath, value=//*[@id='username']}
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
-	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:371)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:473)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
-	at Pages.CRM_Login_Form_Page.Set_username_password(CRM_Login_Form_Page.java:30)
-	at Steps.CRM_CaseToEmail_Step.assessorsLogonIntoSalesforceCRMAndNavigateToEnquiries(CRM_CaseToEmail_Step.java:140)
-	at ✽.Given Assessors logon into Salesforce CRM and Navigate to Enquiries(file10_CRM_Case_To_Email.feature:34)
-</pre>
-      </div>
-    </div>
-  </div>
 
 
         
@@ -744,11 +642,11 @@ Session ID: 3a59e77c1bbd16233c3ba569e09836a6
       </div>
           <div class="step">
         
-<div class="brief skipped">
+<div class="brief passed">
   <span class="keyword indention">When</span>
   <span class="name">Assessor Select first enquiry From Enquiries list</span>
   
-  <span class="lead-duration duration">000ms</span>
+  <span class="lead-duration duration">11s 726ms</span>
 
   </div>
 
@@ -765,11 +663,11 @@ Session ID: 3a59e77c1bbd16233c3ba569e09836a6
       </div>
           <div class="step">
         
-<div class="brief skipped">
+<div class="brief passed">
   <span class="keyword indention">And</span>
   <span class="name">Assessor check the status of the Enquiry should be in Open</span>
   
-  <span class="lead-duration duration">000ms</span>
+  <span class="lead-duration duration">3s 224ms</span>
 
   </div>
 
@@ -786,11 +684,11 @@ Session ID: 3a59e77c1bbd16233c3ba569e09836a6
       </div>
           <div class="step">
         
-<div class="brief skipped">
+<div class="brief passed">
   <span class="keyword indention">Then</span>
   <span class="name">I logout from the application</span>
   
-  <span class="lead-duration duration">000ms</span>
+  <span class="lead-duration duration">4s 634ms</span>
 
   </div>
 

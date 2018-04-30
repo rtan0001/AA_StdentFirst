@@ -202,7 +202,7 @@ formatter.match({
   "location": "CRM_Loginstepdefinition_Step.iNavigateToTheSalesforceURLLoginPage()"
 });
 formatter.result({
-  "duration": 10743496861,
+  "duration": 10365475645,
   "status": "passed"
 });
 formatter.match({
@@ -219,21 +219,21 @@ formatter.match({
   "location": "CRM_Loginstepdefinition_Step.iEnterUsernameAndPassword(String,String)"
 });
 formatter.result({
-  "duration": 291813503,
+  "duration": 230893461,
   "status": "passed"
 });
 formatter.match({
   "location": "CRM_Loginstepdefinition_Step.iClickOnLoginButton()"
 });
 formatter.result({
-  "duration": 4631149200,
+  "duration": 4200515525,
   "status": "passed"
 });
 formatter.match({
   "location": "CRM_Loginstepdefinition_Step.iShouldSeeTheSalesforceHomePage()"
 });
 formatter.result({
-  "duration": 11797736410,
+  "duration": 10986800144,
   "status": "passed"
 });
 formatter.match({
@@ -246,63 +246,63 @@ formatter.match({
   "location": "CRM_Loginstepdefinition_Step.iEnterReceiptNumberNumberIntoSearchFieldAndHitEnterKey(String)"
 });
 formatter.result({
-  "duration": 188379295,
+  "duration": 170344929,
   "status": "passed"
 });
 formatter.match({
   "location": "CRM_Loginstepdefinition_Step.clickOnApplicationReferenceNumberLink()"
 });
 formatter.result({
-  "duration": 7233101006,
+  "duration": 7355112591,
   "status": "passed"
 });
 formatter.match({
   "location": "CRM_Loginstepdefinition_Step.clickOnDetailsLink()"
 });
 formatter.result({
-  "duration": 5384450225,
+  "duration": 5330259455,
   "status": "passed"
 });
 formatter.match({
   "location": "CRM_CaseToEmail_Step.iGoToCoursePreferenceGridClickOnACPCodeLink()"
 });
 formatter.result({
-  "duration": 6766301661,
+  "duration": 6509201182,
   "status": "passed"
 });
 formatter.match({
   "location": "CRM_CaseToEmail_Step.iClickOnSendEmailToCommunicateWithApplicant()"
 });
 formatter.result({
-  "duration": 24136888395,
+  "duration": 24027556648,
   "status": "passed"
 });
 formatter.match({
   "location": "CRM_CaseToEmail_Step.applicantShouldReceiveAnEmailToConfirmAnEnquiryGetsCreatedInCRM()"
 });
 formatter.result({
-  "duration": 6200000141,
+  "duration": 6050126590,
   "status": "passed"
 });
 formatter.match({
   "location": "CRM_CaseToEmail_Step.checkTheStatusOfTheEnquiry()"
 });
 formatter.result({
-  "duration": 4381516803,
+  "duration": 4257391200,
   "status": "passed"
 });
 formatter.match({
   "location": "CRM_CaseToEmail_Step.closeTheEnquiryTab()"
 });
 formatter.result({
-  "duration": 310389014,
+  "duration": 285132619,
   "status": "passed"
 });
 formatter.match({
   "location": "CRM_Loginstepdefinition_Step.iLogoutFromTheApplication()"
 });
 formatter.result({
-  "duration": 4987532520,
+  "duration": 4590011073,
   "status": "passed"
 });
 formatter.scenario({
@@ -333,14 +333,14 @@ formatter.match({
   "location": "CRM_CaseToEmail_Step.iReplyBackToAnEmailEnquiryFromGmailAccount()"
 });
 formatter.result({
-  "duration": 31313480055,
+  "duration": 30784186196,
   "status": "passed"
 });
 formatter.match({
   "location": "CRM_CaseToEmail_Step.iLogoutOfGmailAccount()"
 });
 formatter.result({
-  "duration": 7577655083,
+  "duration": 7896965028,
   "status": "passed"
 });
 formatter.scenario({
@@ -381,28 +381,28 @@ formatter.match({
   "location": "CRM_CaseToEmail_Step.assessorsLogonIntoSalesforceCRMAndNavigateToEnquiries()"
 });
 formatter.result({
-  "duration": 17175905820,
+  "duration": 16993534772,
   "status": "passed"
 });
 formatter.match({
   "location": "CRM_CaseToEmail_Step.assessorSelectFirstEnquiryFromEnquiriesList()"
 });
 formatter.result({
-  "duration": 11789443916,
+  "duration": 11726947679,
   "status": "passed"
 });
 formatter.match({
   "location": "CRM_CaseToEmail_Step.assessorCheckTheStatusOfTheEnquiryShouldBeInOpen()"
 });
 formatter.result({
-  "duration": 3281243807,
+  "duration": 3224541422,
   "status": "passed"
 });
 formatter.match({
   "location": "CRM_Loginstepdefinition_Step.iLogoutFromTheApplication()"
 });
 formatter.result({
-  "duration": 4784189922,
+  "duration": 4634141061,
   "status": "passed"
 });
 formatter.uri("file11_CRM_MoveCase_From_OneQueue_To Another.feature");
@@ -444,35 +444,35 @@ formatter.step({
 });
 formatter.step({
   "line": 9,
-  "name": "I logout of the application",
+  "name": "I logout from the application",
   "keyword": "Then "
 });
 formatter.match({
   "location": "CRMCaseMoveStep.iLogonIntoSalesforceCRM()"
 });
 formatter.result({
-  "duration": 14391472240,
+  "duration": 14149779615,
   "status": "passed"
 });
 formatter.match({
   "location": "CRMCaseMoveStep.iSelectEnquiryFromMUDocsQueueAndChangeItsOwnerToMCDocs()"
 });
 formatter.result({
-  "duration": 14797159882,
+  "duration": 14210363406,
   "status": "passed"
 });
 formatter.match({
   "location": "CRMCaseMoveStep.iGoToMCDocsQueueCheckTheEnquiryOwnerChangedToMCDocs()"
 });
 formatter.result({
-  "duration": 68760,
+  "duration": 66644,
   "status": "passed"
 });
 formatter.match({
-  "location": "CRMCaseMoveStep.iLogoutOfTheApplication()"
+  "location": "CRM_Loginstepdefinition_Step.iLogoutFromTheApplication()"
 });
 formatter.result({
-  "duration": 54303,
+  "duration": 4569105129,
   "status": "passed"
 });
 formatter.uri("file9_CRM_Email_To_Case.feature");
@@ -516,21 +516,21 @@ formatter.match({
   "location": "SendEmail_FromGmailAccountStep.iNavigateToTheGmailLoginPage()"
 });
 formatter.result({
-  "duration": 7633135844,
+  "duration": 7376442731,
   "status": "passed"
 });
 formatter.match({
   "location": "SendEmail_FromGmailAccountStep.iGivenGmailAccountUsernameAndPasswordHitLogin()"
 });
 formatter.result({
-  "duration": 14234638416,
+  "duration": 13840527303,
   "status": "passed"
 });
 formatter.match({
   "location": "SendEmail_FromGmailAccountStep.iSendAnOutbondEmailWithAttachmentsToTheAdmissionsTeam()"
 });
 formatter.result({
-  "duration": 54916372642,
+  "duration": 54675700120,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -729,7 +729,7 @@ formatter.match({
   "location": "CRM_Loginstepdefinition_Step.iNavigateToTheSalesforceURLLoginPage()"
 });
 formatter.result({
-  "duration": 9701283667,
+  "duration": 9405138684,
   "status": "passed"
 });
 formatter.match({
@@ -746,21 +746,21 @@ formatter.match({
   "location": "CRM_Loginstepdefinition_Step.iEnterUsernameAndPassword(String,String)"
 });
 formatter.result({
-  "duration": 307167857,
+  "duration": 198367737,
   "status": "passed"
 });
 formatter.match({
   "location": "CRM_Loginstepdefinition_Step.iClickOnLoginButton()"
 });
 formatter.result({
-  "duration": 4753466755,
+  "duration": 4550737674,
   "status": "passed"
 });
 formatter.match({
   "location": "CRM_Loginstepdefinition_Step.iShouldSeeTheSalesforceHomePage()"
 });
 formatter.result({
-  "duration": 11955629143,
+  "duration": 11751846302,
   "status": "passed"
 });
 formatter.match({
@@ -773,63 +773,63 @@ formatter.match({
   "location": "CRM_Loginstepdefinition_Step.iEnterReceiptNumberNumberIntoSearchFieldAndHitEnterKey(String)"
 });
 formatter.result({
-  "duration": 199729331,
+  "duration": 187522656,
   "status": "passed"
 });
 formatter.match({
   "location": "CRM_Loginstepdefinition_Step.clickOnApplicationReferenceNumberLink()"
 });
 formatter.result({
-  "duration": 7252643393,
+  "duration": 7251912593,
   "status": "passed"
 });
 formatter.match({
   "location": "CRM_Loginstepdefinition_Step.clickOnDetailsLink()"
 });
 formatter.result({
-  "duration": 5371210513,
+  "duration": 5214639590,
   "status": "passed"
 });
 formatter.match({
   "location": "CRM_Loginstepdefinition_Step.iGetTheACPCodeFromTheApplication()"
 });
 formatter.result({
-  "duration": 298198339,
+  "duration": 160728013,
   "status": "passed"
 });
 formatter.match({
   "location": "CRM_Loginstepdefinition_Step.check_the_enquiry_is_created_in_CRM_under_MUDocs_Enquiry_queue_Flow()"
 });
 formatter.result({
-  "duration": 10900688238,
+  "duration": 10641195864,
   "status": "passed"
 });
 formatter.match({
   "location": "CRM_Loginstepdefinition_Step.open_the_enquiry_and_link_ACP_to_the_enquiry()"
 });
 formatter.result({
-  "duration": 6148559313,
+  "duration": 5949188276,
   "status": "passed"
 });
 formatter.match({
   "location": "CRM_Loginstepdefinition_Step.click_Save_to_save_the_page_layout()"
 });
 formatter.result({
-  "duration": 6168812223,
+  "duration": 6149091659,
   "status": "passed"
 });
 formatter.match({
   "location": "CRM_Loginstepdefinition_Step.unlink_ACP_from_the_same_enquiry_hit_save_button()"
 });
 formatter.result({
-  "duration": 5115473963,
+  "duration": 4822005049,
   "status": "passed"
 });
 formatter.match({
   "location": "CRM_Loginstepdefinition_Step.system_should_show_us_validation_and_validate_them()"
 });
 formatter.result({
-  "duration": 4798333743,
+  "duration": 4499839912,
   "status": "passed"
 });
 formatter.scenario({
@@ -860,14 +860,14 @@ formatter.match({
   "location": "CRM_Loginstepdefinition_Step.iNavigateToCloseAllTheTabs()"
 });
 formatter.result({
-  "duration": 407476468,
+  "duration": 310544652,
   "status": "passed"
 });
 formatter.match({
   "location": "CRM_Loginstepdefinition_Step.iLogoutFromTheApplication()"
 });
 formatter.result({
-  "duration": 4790899166,
+  "duration": 4765746455,
   "status": "passed"
 });
 });

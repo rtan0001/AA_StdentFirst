@@ -49,32 +49,32 @@ $(document).ready(function() {
   $(document).ready(function() {
 
     var chartData = {
-        labels: ["@CRM_Email_To_Case_to_Link_TheEnquiry_To_ACP_INCRM","@Close_All_The_Tabs_in_CRM","@GMAIL_Login_Test"],
+        labels: ["@CRM_Email_To_Case_to_Link_TheEnquiry_To_ACP_INCRM","@CRM_Move_Cases_From_One_Queue_To_Others_Queue","@CRM_TheEnquiry_Gets_Updated_With_The_Latest_Changes_StatusUpdates","@Close_All_The_Tabs_in_CRM","@GMAIL_Login_Test","@Reply_ToEmailEnquiry_From_Applicant_Account","@Send_An_Email_From_CRM_TO_Applicant_Email_Account"],
         datasets: [
             {
                 label: 'Passed',
                 backgroundColor: "#92DD96",
-                data: [100.00, 100.00, 100.00]
+                data: [100.00, 100.00, 100.00, 100.00, 100.00, 100.00, 100.00]
             },
             {
                 label: 'Failed',
                 backgroundColor: "#F2928C",
-                data: [0.00, 0.00, 0.00]
+                data: [0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00]
             },
             {
                 label: 'Skipped',
                 backgroundColor: "#8AF",
-                data: [0.00, 0.00, 0.00]
+                data: [0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00]
             },
             {
                 label: 'Pending',
                 backgroundColor: "#F5F28F",
-                data: [0.00, 0.00, 0.00]
+                data: [0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00]
             },
             {
                 label: 'Undefined',
                 backgroundColor: "#F5B975",
-                data: [0.00, 0.00, 0.00]
+                data: [0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00]
             }
         ]
     };
@@ -135,7 +135,7 @@ $(document).ready(function() {
           <tr class="info">
             <td>AutomationExecution</td>
                           <td>1</td>
-                        <td>05 Apr 2018, 14:54</td>
+                        <td>26 Apr 2018, 14:49</td>
           </tr>
         </tbody>
       </table>
@@ -203,7 +203,37 @@ $(document).ready(function() {
         <td >0</td>
         <td >0</td>
         <td class="total">13</td>
-        <td class="duration" data-value="75570552932">1m 15s 570ms</td>
+        <td class="duration" data-value="70782214009">1m 10s 782ms</td>
+        <td class="passed">Passed</td>
+      </tr>
+          <tr>
+        <td class="tagname"><a href="CRM_Move_Cases_From_One_Queue_To_Others_Queue.html">@CRM_Move_Cases_From_One_Queue_To_Others_Queue</a></td>
+        
+        <td  class="passed"    >1</td>
+        <td >0</td>
+        <td class="total">1</td>
+        <td      class="passed"    >4</td>
+        <td >0</td>
+        <td >0</td>
+        <td >0</td>
+        <td >0</td>
+        <td class="total">4</td>
+        <td class="duration" data-value="32929314794">32s 929ms</td>
+        <td class="passed">Passed</td>
+      </tr>
+          <tr>
+        <td class="tagname"><a href="CRM_TheEnquiry_Gets_Updated_With_The_Latest_Changes_StatusUpdates.html">@CRM_TheEnquiry_Gets_Updated_With_The_Latest_Changes_StatusUpdates</a></td>
+        
+        <td  class="passed"    >1</td>
+        <td >0</td>
+        <td class="total">1</td>
+        <td      class="passed"    >4</td>
+        <td >0</td>
+        <td >0</td>
+        <td >0</td>
+        <td >0</td>
+        <td class="total">4</td>
+        <td class="duration" data-value="36579164934">36s 579ms</td>
         <td class="passed">Passed</td>
       </tr>
           <tr>
@@ -212,13 +242,13 @@ $(document).ready(function() {
         <td  class="passed"    >1</td>
         <td >0</td>
         <td class="total">1</td>
-        <td      class="passed"    >1</td>
+        <td      class="passed"    >2</td>
         <td >0</td>
         <td >0</td>
         <td >0</td>
         <td >0</td>
-        <td class="total">1</td>
-        <td class="duration" data-value="405094620">405ms</td>
+        <td class="total">2</td>
+        <td class="duration" data-value="5076291107">5s 076ms</td>
         <td class="passed">Passed</td>
       </tr>
           <tr>
@@ -233,24 +263,54 @@ $(document).ready(function() {
         <td >0</td>
         <td >0</td>
         <td class="total">3</td>
-        <td class="duration" data-value="87781955751">1m 27s 781ms</td>
+        <td class="duration" data-value="75892670154">1m 15s 892ms</td>
+        <td class="passed">Passed</td>
+      </tr>
+          <tr>
+        <td class="tagname"><a href="Reply_ToEmailEnquiry_From_Applicant_Account.html">@Reply_ToEmailEnquiry_From_Applicant_Account</a></td>
+        
+        <td  class="passed"    >1</td>
+        <td >0</td>
+        <td class="total">1</td>
+        <td      class="passed"    >2</td>
+        <td >0</td>
+        <td >0</td>
+        <td >0</td>
+        <td >0</td>
+        <td class="total">2</td>
+        <td class="duration" data-value="38681151224">38s 681ms</td>
+        <td class="passed">Passed</td>
+      </tr>
+          <tr>
+        <td class="tagname"><a href="Send_An_Email_From_CRM_TO_Applicant_Email_Account.html">@Send_An_Email_From_CRM_TO_Applicant_Email_Account</a></td>
+        
+        <td  class="passed"    >1</td>
+        <td >0</td>
+        <td class="total">1</td>
+        <td      class="passed"    >13</td>
+        <td >0</td>
+        <td >0</td>
+        <td >0</td>
+        <td >0</td>
+        <td class="total">13</td>
+        <td class="duration" data-value="84358821062">1m 24s 358ms</td>
         <td class="passed">Passed</td>
       </tr>
       </tbody>
 
   <tfoot class="total">
     <tr>
-      <td>3</td>
-            <td>3</td>
+      <td>7</td>
+            <td>7</td>
       <td>0</td>
-      <td>3</td>
-      <td>17</td>
-      <td>0</td>
-      <td>0</td>
+      <td>7</td>
+      <td>41</td>
       <td>0</td>
       <td>0</td>
-      <td>17</td>
-      <td class="duration">2m 43s 757ms</td>
+      <td>0</td>
+      <td>0</td>
+      <td>41</td>
+      <td class="duration">5m 44s 299ms</td>
       <td></td>
     </tr>
     <tr>

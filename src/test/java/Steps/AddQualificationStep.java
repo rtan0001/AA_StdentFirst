@@ -74,7 +74,7 @@ public class AddQualificationStep extends BaseUtil {
     @Then("^I click save to save the Qualification$")
     public void i_click_save_to_save_the_Qualification() throws Throwable {
       page4.Click_SaveButton_TertiaryQual();
-      Thread.sleep(10000);
+      Thread.sleep(5000);
     }
 
     @Then("^I verify the Qualification from application Grid$")

@@ -8,7 +8,7 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-      features = {"src/test/java/Features/folder1"
+      features = {"src/test/java/Features/folder2"
                    }, format ={"json:target/cucumber.json", "html:target/site/cucumber-pretty"},
 
         glue ={"Steps"}

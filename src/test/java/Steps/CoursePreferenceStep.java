@@ -2,7 +2,10 @@ package Steps;
 
 import Base.BaseUtil;
 import Pages.CoursePreferencePage;
+import Pages.LoginPage;
 import Pages.MyDetailsPage;
+import cucumber.api.PendingException;
+import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
@@ -18,11 +21,11 @@ public class CoursePreferenceStep extends BaseUtil{
     @Given("^I navigate to the home ([^\"]*) page$")
     public void i_navigate_to_the_home_Home_page(String home_link) throws Throwable {
 
-       Thread.sleep(3000);
+       Thread.sleep(2000);
 //      String newwindow = getWindow();
 //      driver.switchTo().window(newwindow);
       page2.Click_MyDetails_Link(home_link);
-      Thread.sleep(6000);
+      Thread.sleep(3000);
 
     }
 
@@ -100,4 +103,26 @@ public class CoursePreferenceStep extends BaseUtil{
 
         page3.Click_CloseSearch();
     }
+
+    @Given("^I navigate to the AA portal login page$")
+    public void iNavigateToTheAAPortalLoginPage() throws Throwable {
+
+        //        System.setProperty("webdriver.chrome.driver", "C:\\Lib\\chromedriver.exe");
+//        driver = new ChromeDriver();
+        initialization();
+//        driver.get("https://staging-monashpartner.cs6.force.com/admissions/s/login/");
+
+        driver.get("https://aa-monashpartner.cs72.force.com/admissions/s/login/");
+        Thread .sleep(5000);
+        driver.manage().window().maximize();
+
+    }
+
+//    @And("^I entered ([^\"]*) and ([^\"]*)$")
+//    public void iEnteredUsernameAndPassword(String username, String password) throws Throwable {
+//        LoginPage page = new LoginPage(driver);
+//        page.Login(username, "monash@2017");
+//    }
+
+
 }

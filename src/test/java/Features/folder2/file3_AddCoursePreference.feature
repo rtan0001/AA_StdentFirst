@@ -5,7 +5,7 @@ Feature: Applicant Course Preference Feature
   Scenario Outline: Applicant Add courses to their application
 
 #    Given I navigate to the AA portal login page
-#    And I entered <username> and <password>
+#     And I entered <username> and <password>
 #    And I click login button
 #    And I navigate to the home <home> page
     And I click Create New Application button
@@ -23,4 +23,4 @@ Feature: Applicant Course Preference Feature
 
       Examples:
         |   username                          |   password    |   home    |   Code    |   Attendance    |   Location    |   Period                 |  CoursePre   |   Logout    |
-        |   rupa12.tanneeru12@mailinator.com  |   monash@2017 |   HOME    |   master  |   Full Time     |    CITY       |   2021 Summer Semester   |     1        |   Logout    |
+        |   rupa17@mailinator.com             |   monash@2017 |   HOME    |   master  |   Full Time     |    CITY       |   2021 Summer Semester   |     1        |   Logout    |

@@ -25,8 +25,7 @@ public class AddCreditIntentionPage extends BaseUtil{
 
         Thread.sleep(2000);
 
-        WebElement element = LoginStep.driver.findElement(By.xpath("//*[@id='NapiliCommunityTemplate']/div[2]/div/div[2]/div/div[3]/div/div[4]/div/div/div[2]/div/form/div[2]/div/div[1]/div/div/select"));
-
+        WebElement element = LoginStep.driver.findElement(By.xpath("//*[@id='ServiceCommunityTemplate']/div[2]/div/div[2]/div/div[3]/div/div[4]/div/div/div[2]/div/form/div[2]/div/div[1]/div/div/select"));
 
         List<WebElement> list_items = element.findElements(By.tagName("option"));
 

@@ -50,9 +50,10 @@ public class MyDetailsPage extends BaseUtil {
 
     public void Click_MyDetails_Link(String details) {
 
-        WebElement ul_items = driver.findElement(By.xpath("//*[@id='navigationMenu']"));
+        WebElement ul_items = driver.findElement(By.xpath("//*[@class='slds-has-flexi-truncate']"));
+
         List<WebElement> list_items = ul_items.findElements(By.tagName("li"));
-       label: for(WebElement li : list_items) {
+        label: for(WebElement li : list_items) {
             List<WebElement> all_links = li.findElements(By.tagName("a"));
             for (WebElement link : all_links) {
                 if (link.getText().equals(details)) {

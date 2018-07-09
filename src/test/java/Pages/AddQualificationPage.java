@@ -126,9 +126,10 @@ public class AddQualificationPage extends BaseUtil {
 
     public void Set_Institution(String institution) throws InterruptedException {
 
-        Thread.sleep(1000);
+        Thread.sleep(3000);
 
-        LoginStep.driver.findElement(By.xpath("//*[@id='qualSection']/div/div/div[2]/div[2]/form/div[5]/div[5]/div/div/div/div/div[1]/div/input")).sendKeys(institution);
+        LoginStep.driver.findElement(By.xpath("//*[@id='qualSection']/div/div/div[2]/div[2]/form/div[5]/div[4]/div[2]/div/div[2]/label/span[1]/i")).click();
+        LoginStep.driver.findElement(By.xpath("//*[@id='qualSection']/div/div/div[2]/div[2]/form/div[5]/div[5]/div/div/input")).sendKeys(institution);
 
         Thread.sleep(3000);
 

@@ -5,6 +5,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -87,7 +88,7 @@ public class GenerateRegoEmailPage extends BaseUtil {
 
 
     public void Registration_Link_Click() throws InterruptedException {
-        driver.findElement(By.xpath("//*[@id='sfdc_forgot']/span[2]/a")).click();
+        driver.findElement(By.xpath("//*[@id='centerPanel']/div/div[2]/div/div[4]/div/div[4]/span[2]/a")).click();
         Thread.sleep(2000);
     }
 
@@ -100,7 +101,7 @@ public class GenerateRegoEmailPage extends BaseUtil {
 
     public void Click_On_SignUp_Button()
     {
-       driver.findElement(By.xpath("//*[@id='content']/div/div[2]/div/div[4]/div/div[5]/button")).click();
+       driver.findElement(By.xpath("//*[@id='centerPanel']/div/div[2]/div/div[4]/div/div[5]/button")).click();
 
     }
 
@@ -234,17 +235,18 @@ public class GenerateRegoEmailPage extends BaseUtil {
         String newwindow = getWindow();
         driver.switchTo().window(newwindow);
 
-        Thread.sleep(2000);
+        Thread.sleep(5000);
         driver.findElement(By.xpath("//*[@class=' profileIcon']")).click();
 
-        WebElement element = driver.findElement(By.xpath("//*[@id='header']/div[1]/div[3]/div/div/div/div[2]/div/ul"));
+        WebElement element = driver.findElement(By.xpath("//*[@id='header-overlay']/div[1]/div[5]/div/div/div/div[2]/div/ul"));
 
         List<WebElement> list_items = element.findElements(By.tagName("li"));
 
         for (WebElement items : list_items) {
             if (items.getText().trim().equals(Logout)) {
+                Actions act = new Actions(driver);
+                act.moveToElement(items).click().build().perform();
 
-                items.click();
             }
 
         }

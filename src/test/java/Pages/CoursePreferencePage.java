@@ -25,19 +25,26 @@ public class CoursePreferencePage extends BaseUtil {
 
     public void  Click_CreateNewButton() throws InterruptedException {
 
-        Thread.sleep(3000);
+        Thread.sleep(1000);
 
-        LoginStep.driver.findElement(By.xpath("//*[@id='NapiliCommunityTemplate']/div[2]/div/div[2]/div/div[1]/div/div/div/button")).click();
+          LoginStep.driver.findElement(By.xpath("//*[@id='ServiceCommunityTemplate']/div[2]/div/div[2]/div/div[1]/div/div/button")).click();
+//        LoginStep.driver.findElement(By.xpath("//*[@id='container']/div[2]/div/button")).click();
+
+
+
+
 
     }
 
     public void Set_CoursePreference(String course) throws InterruptedException {
 
-        Thread.sleep(3000);
+        Thread.sleep(1000);
 
-        LoginStep.driver.findElement(By.xpath("//*[@id='searchCourse']/div[1]")).click();
+        LoginStep.driver.findElement(By.xpath("//*[@placeholder='Enter course code or name']")).click();
 
-        LoginStep.driver.findElement(By.xpath("//*[@id='searchCourse']/div[5]/form/div[1]/div[1]/input")).sendKeys(course);
+
+
+        LoginStep.driver.findElement(By.xpath("//*[@placeholder='Enter course code or name']")).sendKeys(course);
     }
 
     public void Click_Search_Button()

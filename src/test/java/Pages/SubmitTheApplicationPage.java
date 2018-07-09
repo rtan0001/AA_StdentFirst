@@ -47,14 +47,16 @@ public class SubmitTheApplicationPage extends BaseUtil {
     public void Click_On_Accept_Submit_Button()
     {
 
-        LoginStep.driver.findElement(By.xpath("//*[@id='NapiliCommunityTemplate']/div[2]/div/div[2]/div/div/div/center/div/button[2]")).click();
+        LoginStep.driver.findElement(By.xpath("//*[@id='ServiceCommunityTemplate']/div[2]/div/div[2]/div/div/div/center/div/button[2]")).click();
 
     }
 
     public String Extract_ApplicantID()
     {
 
-        String text =  LoginStep.driver.findElement(By.xpath("//*[@id='NapiliCommunityTemplate']/div[2]/div/div[2]/div/div/div/div/div[2]/div[2]")).getText();
+        String text =  LoginStep.driver.findElement(By.xpath("//*[@id='ServiceCommunityTemplate']/div[2]/div/div[2]/div/div/div/div/div[2]/div[2]")).getText();
+
+
 
 //        StringBuilder builder = new StringBuilder();
 //         for( int i=0; i<text.length(); i++) {

@@ -26,9 +26,10 @@ public class AddWorkExperincePage extends BaseUtil {
 
         Thread.sleep(1000);
 
-//        driver.findElement(By.xpath("//*[@id='myWorkExpDiv']/button")).click();
+//
+        LoginStep.driver.findElement(By.xpath("//*[@id='ServiceCommunityTemplate']/div[2]/div/div[2]/div/div[4]/div/div[2]/div/div[2]/div[1]/button")).click();
 
-        LoginStep.driver.findElement(By.xpath("//*[@id='NapiliCommunityTemplate']/div[2]/div/div[2]/div/div[4]/div/div[2]/div/div[2]/div[1]/button")).click();
+
 
     }
 
@@ -67,7 +68,9 @@ public class AddWorkExperincePage extends BaseUtil {
         DateFormat df = new SimpleDateFormat("dd/MMM/yyyy");
         String EndDate =  df.format(todayDate);
         System.out.println("String in dd/MMM/yyyy format is:" + EndDate);
-        LoginStep.driver.findElement(By.xpath("//*[@id='NapiliCommunityTemplate']/div[2]/div/div[2]/div/div[4]/div/div[2]/div/div[2]/form/div[5]/div/div/div[1]/div/input")).sendKeys(EndDate, Keys.TAB);
+        LoginStep.driver.findElement(By.xpath("//*[@id='ServiceCommunityTemplate']/div[2]/div/div[2]/div/div[4]/div/div[2]/div/div[2]/form/div[5]/div/div/div[1]/div/input")).sendKeys(EndDate, Keys.TAB);
+
+
 
     }
 
@@ -75,7 +78,8 @@ public class AddWorkExperincePage extends BaseUtil {
     public void Click_SaveButton_WorkExperice() throws InterruptedException
     {
         Thread.sleep(2000);
-        LoginStep.driver.findElement(By.xpath("//*[@id='NapiliCommunityTemplate']/div[2]/div/div[2]/div/div[4]/div/div[2]/div/div[2]/form/center/div/button[1]")).click();
+        LoginStep.driver.findElement(By.xpath("//*[@id='ServiceCommunityTemplate']/div[2]/div/div[2]/div/div[4]/div/div[2]/div/div[2]/form/center/div/button[1]")).click();
+
 
 
     }

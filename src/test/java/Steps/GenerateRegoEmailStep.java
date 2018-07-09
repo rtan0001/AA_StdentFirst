@@ -71,7 +71,9 @@ public class GenerateRegoEmailStep extends BaseUtil {
 //        System.setProperty("webdriver.chrome.driver", "C:\\Lib\\chromedriver.exe");
 //        driver = new ChromeDriver();
         initialization();
-        driver.get("https://staging-monashpartner.cs6.force.com/admissions/s/login/");
+//        driver.get("https://staging-monashpartner.cs6.force.com/admissions/s/login/");
+
+        driver.get("https://aa-monashpartner.cs72.force.com/admissions/s/login/");
         Thread .sleep(5000);
         driver.manage().window().maximize();
     }

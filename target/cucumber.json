@@ -3,680 +3,1551 @@
     "line": 1,
     "elements": [
       {
-        "line": 23,
-        "name": "Search with given keywords into the search field",
+        "line": 30,
+        "name": "Login with correct username and password using scenario outline",
         "description": "",
-        "id": "crm-case-to-email-to-check-send-email-function-works-well-in-crm-and-check-enquiry-status-changed-from-closed-to-open;search-with-given-keywords-into-the-search-field;;2",
+        "id": "applicant-registration-feature;login-with-correct-username-and-password-using-scenario-outline;;2",
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 10365475645,
+              "duration": 6896582584,
               "status": "passed"
             },
             "line": 6,
-            "name": "I navigate to the Salesforce URL login page",
+            "name": "I navigate to the public website",
             "match": {
-              "location": "CRM_Loginstepdefinition_Step.iNavigateToTheSalesforceURLLoginPage()"
+              "location": "GenerateRegoEmailStep.i_navigate_to_the_public_website()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 230893461,
+              "duration": 58641496,
               "status": "passed"
             },
             "line": 7,
-            "name": "I enter rupa.tanneero@monash.edu.staging and monash@2017",
+            "name": "I Set a new email",
             "match": {
-              "arguments": [
-                {
-                  "val": "rupa.tanneero@monash.edu.staging",
-                  "offset": 8
-                },
-                {
-                  "val": "monash@2017",
-                  "offset": 45
-                }
-              ],
-              "location": "CRM_Loginstepdefinition_Step.iEnterUsernameAndPassword(String,String)"
+              "location": "GenerateRegoEmailStep.i_Set_a_new_email()"
             },
-            "matchedColumns": [
-              0,
-              1
-            ],
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 4200515525,
+              "duration": 1952452164,
               "status": "passed"
             },
             "line": 8,
-            "name": "I click on login button",
+            "name": "I click Go button",
             "match": {
-              "location": "CRM_Loginstepdefinition_Step.iClickOnLoginButton()"
+              "location": "GenerateRegoEmailStep.i_click_Go_button()"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 10986800144,
+              "duration": 3092721860,
               "status": "passed"
             },
             "line": 9,
-            "name": "I should see the Salesforce home page",
+            "name": "I should see public site inbox",
             "match": {
-              "location": "CRM_Loginstepdefinition_Step.iShouldSeeTheSalesforceHomePage()"
+              "location": "GenerateRegoEmailStep.i_should_see_public_site_inbox()"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 170344929,
+              "duration": 739321016,
               "status": "passed"
             },
             "line": 10,
-            "name": "I Enter receipt number A-266309 into search field and hit Enter key",
+            "name": "Close the browser",
             "match": {
-              "arguments": [
-                {
-                  "val": "A-266309",
-                  "offset": 23
-                }
-              ],
-              "location": "CRM_Loginstepdefinition_Step.iEnterReceiptNumberNumberIntoSearchFieldAndHitEnterKey(String)"
+              "location": "GenerateRegoEmailStep.closeTheBrowser()"
             },
-            "matchedColumns": [
-              2
-            ],
-            "keyword": "Given "
+            "keyword": "And "
           },
           {
             "result": {
-              "duration": 7355112591,
+              "duration": 11724801336,
               "status": "passed"
             },
             "line": 11,
-            "name": "Click on Application Reference Number link",
+            "name": "I navigate to the AA Registration login page",
             "match": {
-              "location": "CRM_Loginstepdefinition_Step.clickOnApplicationReferenceNumberLink()"
+              "location": "GenerateRegoEmailStep.iNavigateToTheAARegistrationLoginPage()"
             },
-            "keyword": "Then "
+            "keyword": "Given "
           },
           {
             "result": {
-              "duration": 5330259455,
+              "duration": 2100509742,
               "status": "passed"
             },
             "line": 12,
-            "name": "Click on Details link",
+            "name": "I click on Register as a New Applicant link from Registration Page",
             "match": {
-              "location": "CRM_Loginstepdefinition_Step.clickOnDetailsLink()"
+              "location": "GenerateRegoEmailStep.iClickOnRegisterAsANewApplicantLinkFromRegistrationPage()"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 6509201182,
+              "duration": 250917860,
               "status": "passed"
             },
             "line": 13,
-            "name": "I go to Course Preference Grid click on ACPCode Link",
-            "match": {
-              "location": "CRM_CaseToEmail_Step.iGoToCoursePreferenceGridClickOnACPCodeLink()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 24027556648,
-              "status": "passed"
-            },
-            "line": 14,
-            "name": "I Click on Send Email to communicate with Applicant",
-            "match": {
-              "location": "CRM_CaseToEmail_Step.iClickOnSendEmailToCommunicateWithApplicant()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 6050126590,
-              "status": "passed"
-            },
-            "line": 15,
-            "name": "Applicant should receive an email to confirm an enquiry gets created in CRM",
-            "match": {
-              "location": "CRM_CaseToEmail_Step.applicantShouldReceiveAnEmailToConfirmAnEnquiryGetsCreatedInCRM()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 4257391200,
-              "status": "passed"
-            },
-            "line": 16,
-            "name": "check the status of the enquiry",
-            "match": {
-              "location": "CRM_CaseToEmail_Step.checkTheStatusOfTheEnquiry()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 285132619,
-              "status": "passed"
-            },
-            "line": 17,
-            "name": "Close the Enquiry Tab",
-            "match": {
-              "location": "CRM_CaseToEmail_Step.closeTheEnquiryTab()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 4590011073,
-              "status": "passed"
-            },
-            "line": 18,
-            "name": "I logout from the application",
-            "match": {
-              "location": "CRM_Loginstepdefinition_Step.iLogoutFromTheApplication()"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "line": 4,
-            "name": "@Send_An_Email_From_CRM_TO_Applicant_Email_Account"
-          }
-        ]
-      },
-      {
-        "line": 27,
-        "name": "Applicant Reply back to an email enquiry from their email account",
-        "description": "",
-        "id": "crm-case-to-email-to-check-send-email-function-works-well-in-crm-and-check-enquiry-status-changed-from-closed-to-open;applicant-reply-back-to-an-email-enquiry-from-their-email-account",
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 30784186196,
-              "status": "passed"
-            },
-            "line": 28,
-            "name": "I Reply back to an email enquiry from Gmail Account",
-            "match": {
-              "location": "CRM_CaseToEmail_Step.iReplyBackToAnEmailEnquiryFromGmailAccount()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 7896965028,
-              "status": "passed"
-            },
-            "line": 29,
-            "name": "I logout of gmail account",
-            "match": {
-              "location": "CRM_CaseToEmail_Step.iLogoutOfGmailAccount()"
-            },
-            "keyword": "And "
-          }
-        ],
-        "tags": [
-          {
-            "line": 26,
-            "name": "@Reply_ToEmailEnquiry_From_Applicant_Account"
-          }
-        ]
-      },
-      {
-        "line": 33,
-        "name": "Assessors Or Admissions team will check the enquiries which are in open in MU docs queue after the student respond to the reply email",
-        "description": "",
-        "id": "crm-case-to-email-to-check-send-email-function-works-well-in-crm-and-check-enquiry-status-changed-from-closed-to-open;assessors-or-admissions-team-will-check-the-enquiries-which-are-in-open-in-mu-docs-queue-after-the-student-respond-to-the-reply-email",
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 16993534772,
-              "status": "passed"
-            },
-            "line": 34,
-            "name": "Assessors logon into Salesforce CRM and Navigate to Enquiries",
-            "match": {
-              "location": "CRM_CaseToEmail_Step.assessorsLogonIntoSalesforceCRMAndNavigateToEnquiries()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 11726947679,
-              "status": "passed"
-            },
-            "line": 35,
-            "name": "Assessor Select first enquiry From Enquiries list",
-            "match": {
-              "location": "CRM_CaseToEmail_Step.assessorSelectFirstEnquiryFromEnquiriesList()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 3224541422,
-              "status": "passed"
-            },
-            "line": 36,
-            "name": "Assessor check the status of the Enquiry should be in Open",
-            "match": {
-              "location": "CRM_CaseToEmail_Step.assessorCheckTheStatusOfTheEnquiryShouldBeInOpen()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 4634141061,
-              "status": "passed"
-            },
-            "line": 37,
-            "name": "I logout from the application",
-            "match": {
-              "location": "CRM_Loginstepdefinition_Step.iLogoutFromTheApplication()"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "line": 32,
-            "name": "@CRM_TheEnquiry_Gets_Updated_With_The_Latest_Changes_StatusUpdates"
-          }
-        ]
-      }
-    ],
-    "name": "CRM Case To Email to check Send Email function works well in CRM and check enquiry status changed from Closed to Open",
-    "description": "This feature deals with Case To Email",
-    "id": "crm-case-to-email-to-check-send-email-function-works-well-in-crm-and-check-enquiry-status-changed-from-closed-to-open",
-    "keyword": "Feature",
-    "uri": "file10_CRM_Case_To_Email.feature"
-  },
-  {
-    "line": 1,
-    "elements": [
-      {
-        "line": 5,
-        "name": "Move cases from one queue to another queue",
-        "description": "",
-        "id": "crm-move-case-from-one-queue-to-another-queue;move-cases-from-one-queue-to-another-queue",
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 14149779615,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "I logon into salesforce CRM",
-            "match": {
-              "location": "CRMCaseMoveStep.iLogonIntoSalesforceCRM()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 14210363406,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "I select enquiry from MU Docs queue and change its owner to MC Docs",
-            "match": {
-              "location": "CRMCaseMoveStep.iSelectEnquiryFromMUDocsQueueAndChangeItsOwnerToMCDocs()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 66644,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "I go to MC Docs queue check the enquiry owner changed to MC Docs",
-            "match": {
-              "location": "CRMCaseMoveStep.iGoToMCDocsQueueCheckTheEnquiryOwnerChangedToMCDocs()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 4569105129,
-              "status": "passed"
-            },
-            "line": 9,
-            "name": "I logout from the application",
-            "match": {
-              "location": "CRM_Loginstepdefinition_Step.iLogoutFromTheApplication()"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "line": 4,
-            "name": "@CRM_Move_Cases_From_One_Queue_To_Others_Queue"
-          }
-        ]
-      }
-    ],
-    "name": "CRM Move case from one queue to another queue",
-    "description": "This feature deals with move cases from one queue to another queue",
-    "id": "crm-move-case-from-one-queue-to-another-queue",
-    "keyword": "Feature",
-    "uri": "file11_CRM_MoveCase_From_OneQueue_To Another.feature"
-  },
-  {
-    "line": 1,
-    "elements": [
-      {
-        "line": 6,
-        "name": "User Send an outBound email to Admissions team using their personal account",
-        "description": "",
-        "id": "crm-email-to-case-an-enquiry-and-link/unlink-acp-to-prevent-error-validations;user-send-an-outbound-email-to-admissions-team-using-their-personal-account",
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 7376442731,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "I navigate to the gmail Login Page",
-            "match": {
-              "location": "SendEmail_FromGmailAccountStep.iNavigateToTheGmailLoginPage()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 13840527303,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "I given gmail Account username and password hit login",
-            "match": {
-              "location": "SendEmail_FromGmailAccountStep.iGivenGmailAccountUsernameAndPasswordHitLogin()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 54675700120,
-              "status": "passed"
-            },
-            "line": 9,
-            "name": "I Send an outbond Email with attachments to the admissions team",
-            "match": {
-              "location": "SendEmail_FromGmailAccountStep.iSendAnOutbondEmailWithAttachmentsToTheAdmissionsTeam()"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "line": 5,
-            "name": "@GMAIL_Login_Test"
-          }
-        ]
-      },
-      {
-        "line": 32,
-        "name": "Search with given keywords into the search field",
-        "description": "",
-        "id": "crm-email-to-case-an-enquiry-and-link/unlink-acp-to-prevent-error-validations;search-with-given-keywords-into-the-search-field;;2",
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 9405138684,
-              "status": "passed"
-            },
-            "line": 14,
-            "name": "I navigate to the Salesforce URL login page",
-            "match": {
-              "location": "CRM_Loginstepdefinition_Step.iNavigateToTheSalesforceURLLoginPage()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 198367737,
-              "status": "passed"
-            },
-            "line": 15,
-            "name": "I enter rupa.tanneero@monash.edu.staging and monash@2017",
+            "name": "I Enter rupa and tanneeru and Email",
             "match": {
               "arguments": [
                 {
-                  "val": "rupa.tanneero@monash.edu.staging",
+                  "val": "rupa",
                   "offset": 8
                 },
                 {
-                  "val": "monash@2017",
-                  "offset": 45
+                  "val": "tanneeru",
+                  "offset": 17
                 }
               ],
-              "location": "CRM_Loginstepdefinition_Step.iEnterUsernameAndPassword(String,String)"
+              "location": "GenerateRegoEmailStep.iEnterGivenNameAndFamilyNameAndEmail(String,String)"
             },
             "matchedColumns": [
               0,
               1
             ],
-            "keyword": "When "
+            "keyword": "Then "
           },
           {
             "result": {
-              "duration": 4550737674,
+              "duration": 61394019,
               "status": "passed"
             },
-            "line": 16,
-            "name": "I click on login button",
+            "line": 14,
+            "name": "I Click on SignUp button",
             "match": {
-              "location": "CRM_Loginstepdefinition_Step.iClickOnLoginButton()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 11751846302,
-              "status": "passed"
-            },
-            "line": 17,
-            "name": "I should see the Salesforce home page",
-            "match": {
-              "location": "CRM_Loginstepdefinition_Step.iShouldSeeTheSalesforceHomePage()"
+              "location": "GenerateRegoEmailStep.iClickOnSignUpButton()"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 187522656,
+              "duration": 778135605,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Close the browser",
+            "match": {
+              "location": "GenerateRegoEmailStep.closeTheBrowser()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6353162827,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I navigate to the public website",
+            "match": {
+              "location": "GenerateRegoEmailStep.i_navigate_to_the_public_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 89617426,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I set an email into inbox",
+            "match": {
+              "location": "GenerateRegoEmailStep.iSetAnEmailIntoInbox()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1545608093,
               "status": "passed"
             },
             "line": 18,
-            "name": "I Enter receipt number A-266309 into search field and hit Enter key",
+            "name": "I click Go button",
+            "match": {
+              "location": "GenerateRegoEmailStep.i_click_Go_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2289619964,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I click on welcome message",
+            "match": {
+              "location": "GenerateRegoEmailStep.iClickOnWelcomeMessage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3356845904,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I click on Complete Registration button from Email",
+            "match": {
+              "location": "GenerateRegoEmailStep.iClickOnCompleteRegistrationButtonFromEmail()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 16262982273,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "T Set password and Change Password",
+            "match": {
+              "location": "GenerateRegoEmailStep.tSetPasswordAndChangePassword()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 9307260299,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "Logout Logout of the Application",
             "match": {
               "arguments": [
                 {
-                  "val": "A-266309",
-                  "offset": 23
+                  "val": "Logout",
+                  "offset": 7
                 }
               ],
-              "location": "CRM_Loginstepdefinition_Step.iEnterReceiptNumberNumberIntoSearchFieldAndHitEnterKey(String)"
+              "location": "GenerateRegoEmailStep.logoutLogoutOfTheApplication(String)"
             },
             "matchedColumns": [
               2
             ],
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 7251912593,
-              "status": "passed"
-            },
-            "line": 19,
-            "name": "Click on Application Reference Number link",
-            "match": {
-              "location": "CRM_Loginstepdefinition_Step.clickOnApplicationReferenceNumberLink()"
-            },
             "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 5214639590,
-              "status": "passed"
-            },
-            "line": 20,
-            "name": "Click on Details link",
-            "match": {
-              "location": "CRM_Loginstepdefinition_Step.clickOnDetailsLink()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 160728013,
-              "status": "passed"
-            },
-            "line": 21,
-            "name": "I get the ACP code from the application",
-            "match": {
-              "location": "CRM_Loginstepdefinition_Step.iGetTheACPCodeFromTheApplication()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 10641195864,
-              "status": "passed"
-            },
-            "line": 22,
-            "name": "check the enquiry is created in CRM under MUDocs Enquiry queue Flow",
-            "match": {
-              "location": "CRM_Loginstepdefinition_Step.check_the_enquiry_is_created_in_CRM_under_MUDocs_Enquiry_queue_Flow()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 5949188276,
-              "status": "passed"
-            },
-            "line": 23,
-            "name": "open the enquiry and link ACP to the enquiry",
-            "match": {
-              "location": "CRM_Loginstepdefinition_Step.open_the_enquiry_and_link_ACP_to_the_enquiry()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 6149091659,
-              "status": "passed"
-            },
-            "line": 24,
-            "name": "Click Save to save the page layout",
-            "match": {
-              "location": "CRM_Loginstepdefinition_Step.click_Save_to_save_the_page_layout()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 4822005049,
-              "status": "passed"
-            },
-            "line": 25,
-            "name": "Unlink ACP from the same enquiry hit save button",
-            "match": {
-              "location": "CRM_Loginstepdefinition_Step.unlink_ACP_from_the_same_enquiry_hit_save_button()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 4499839912,
-              "status": "passed"
-            },
-            "line": 26,
-            "name": "System should show us validation and validate them",
-            "match": {
-              "location": "CRM_Loginstepdefinition_Step.system_should_show_us_validation_and_validate_them()"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "line": 12,
-            "name": "@CRM_Email_To_Case_to_Link_TheEnquiry_To_ACP_INCRM"
-          }
-        ]
-      },
-      {
-        "line": 37,
-        "name": "Close All the Tabs with in CRM",
-        "description": "",
-        "id": "crm-email-to-case-an-enquiry-and-link/unlink-acp-to-prevent-error-validations;close-all-the-tabs-with-in-crm",
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 310544652,
-              "status": "passed"
-            },
-            "line": 38,
-            "name": "I Navigate to Close All the Tabs",
-            "match": {
-              "location": "CRM_Loginstepdefinition_Step.iNavigateToCloseAllTheTabs()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 4765746455,
-              "status": "passed"
-            },
-            "line": 39,
-            "name": "I logout from the application",
-            "match": {
-              "location": "CRM_Loginstepdefinition_Step.iLogoutFromTheApplication()"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "line": 36,
-            "name": "@Close_All_The_Tabs_in_CRM"
           }
         ]
       }
     ],
-    "name": "CRM Email To Case An Enquiry And Link/unlink ACP to prevent Error Validations",
-    "description": "This feature deals with the Email to Case Link/Unlink ACP to an enquiry to prevent Error Validations",
-    "id": "crm-email-to-case-an-enquiry-and-link/unlink-acp-to-prevent-error-validations",
+    "name": "Applicant Registration Feature",
+    "description": "This feature deals with the Registration functionality of the application",
+    "id": "applicant-registration-feature",
     "keyword": "Feature",
-    "uri": "file9_CRM_Email_To_Case.feature"
+    "uri": "file1_GenerateRegoEmail2.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 31,
+        "name": "Applicant enter their personal information on mydetails page",
+        "description": "",
+        "id": "personal-details-feature;applicant-enter-their-personal-information-on-mydetails-page;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 7205816475,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I navigate to mailinator window to get email",
+            "match": {
+              "location": "MyDetailStep.iNavigateToMailinatorWindowToGetEmail()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 242994220,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I entered username and password",
+            "match": {
+              "location": "MyDetailStep.iEnteredUsernameAndPassword()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2567490754,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click login button",
+            "match": {
+              "location": "MyDetailStep.iClickLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10351697354,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I navigate to the details MY DETAILS page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "MY DETAILS",
+                  "offset": 26
+                }
+              ],
+              "location": "MyDetailStep.iNavigateToTheDetailsMyDetailsPage(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2305920004,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I Select title from page Mrs",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Mrs",
+                  "offset": 25
+                }
+              ],
+              "location": "MyDetailStep.iSelectTitleFromPageTitle(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1149957475,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I Select gender Female",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Female",
+                  "offset": 16
+                }
+              ],
+              "location": "MyDetailStep.iSelectGenderGender(String)"
+            },
+            "matchedColumns": [
+              4
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1286554671,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I Set dateofbirth 12/01/1985",
+            "match": {
+              "arguments": [
+                {
+                  "val": "12/01/1985",
+                  "offset": 18
+                }
+              ],
+              "location": "MyDetailStep.iSetDateofbirthDateOfBirth(String)"
+            },
+            "matchedColumns": [
+              5
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1139670600,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I Set mobilenumber 04375847568",
+            "match": {
+              "arguments": [
+                {
+                  "val": "04375847568",
+                  "offset": 19
+                }
+              ],
+              "location": "MyDetailStep.iSetMobilenumberMobileNumber(String)"
+            },
+            "matchedColumns": [
+              6
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1187375703,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I Set homephone 0357845985",
+            "match": {
+              "arguments": [
+                {
+                  "val": "0357845985",
+                  "offset": 16
+                }
+              ],
+              "location": "MyDetailStep.iSetHomephoneHomePhone(String)"
+            },
+            "matchedColumns": [
+              7
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1144562798,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I Set workphone 04765847896",
+            "match": {
+              "arguments": [
+                {
+                  "val": "04765847896",
+                  "offset": 16
+                }
+              ],
+              "location": "MyDetailStep.iSetWorkphoneWorkPhone(String)"
+            },
+            "matchedColumns": [
+              8
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1152784047,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I Set currentpostal Yes",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Yes",
+                  "offset": 20
+                }
+              ],
+              "location": "MyDetailStep.iSetCurrentphoneCurrentPostal(String)"
+            },
+            "matchedColumns": [
+              9
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1210365579,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I Set streetnumber 738 Blackburn Rd",
+            "match": {
+              "arguments": [
+                {
+                  "val": "738 Blackburn Rd",
+                  "offset": 19
+                }
+              ],
+              "location": "MyDetailStep.iSetStreetnumberStreetNumber(String)"
+            },
+            "matchedColumns": [
+              10
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1137301018,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I Set suburb Clayton",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Clayton",
+                  "offset": 13
+                }
+              ],
+              "location": "MyDetailStep.iSetSuburbSuburb(String)"
+            },
+            "matchedColumns": [
+              11
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1270321628,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I Set state Victoria",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Victoria",
+                  "offset": 12
+                }
+              ],
+              "location": "MyDetailStep.iSetStateState(String)"
+            },
+            "matchedColumns": [
+              12
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1106229531,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I Set postalcode 3000",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3000",
+                  "offset": 17
+                }
+              ],
+              "location": "MyDetailStep.iSetPostalcodePostalCode(String)"
+            },
+            "matchedColumns": [
+              13
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1163106535,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I Set location Australian campus and any location not listed below",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Australian campus and any location not listed below",
+                  "offset": 15
+                }
+              ],
+              "location": "MyDetailStep.iSetLocationLocation(String)"
+            },
+            "matchedColumns": [
+              14
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1319913228,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I Set citizenship I hold an Australian permanent resident visa",
+            "match": {
+              "arguments": [
+                {
+                  "val": "I hold an Australian permanent resident visa",
+                  "offset": 18
+                }
+              ],
+              "location": "MyDetailStep.iSetCitizenshipCitizenShipType(String)"
+            },
+            "matchedColumns": [
+              15
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1164568483,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I Set aborigional Yes",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Yes",
+                  "offset": 18
+                }
+              ],
+              "location": "MyDetailStep.iSetAborigionalAboriginalIslander(String)"
+            },
+            "matchedColumns": [
+              16
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8557536397,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I Click on Save button to save the details",
+            "match": {
+              "location": "MyDetailStep.iClickOnSaveButtonToSaveTheDetails()"
+            },
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@MyDetails_Test"
+          }
+        ]
+      }
+    ],
+    "name": "Personal Details Feature",
+    "description": "This page deals with students can provide their personal information",
+    "id": "personal-details-feature",
+    "keyword": "Feature",
+    "uri": "file2_Mydetails.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 26,
+        "name": "Applicant Add courses to their application",
+        "description": "",
+        "id": "applicant-course-preference-feature;applicant-add-courses-to-their-application;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4057347747,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 7,
+                "value": "#    Given I navigate to the AA portal login page"
+              },
+              {
+                "line": 8,
+                "value": "#     And I entered \u003cusername\u003e and \u003cpassword\u003e"
+              },
+              {
+                "line": 9,
+                "value": "#    And I click login button"
+              },
+              {
+                "line": 10,
+                "value": "#    And I navigate to the home \u003chome\u003e page"
+              }
+            ],
+            "line": 11,
+            "name": "I click Create New Application button",
+            "match": {
+              "location": "CoursePreferenceStep.i_click_Create_New_Application_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1177914655,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I Enter Course Preference code master into Search Field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "master",
+                  "offset": 31
+                }
+              ],
+              "location": "CoursePreferenceStep.i_Enter_Course_Preference_code_master_into_Search_Field(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3081098922,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I click Search button",
+            "match": {
+              "location": "CoursePreferenceStep.i_click_Search_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3284968250,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 14,
+                "value": "#    Then I select attendance Type \u003cAttendance\u003e"
+              },
+              {
+                "line": 15,
+                "value": "#    Then I select location \u003cLocation\u003e"
+              },
+              {
+                "line": 16,
+                "value": "#    Then I select commencementPeriod \u003cPeriod\u003e"
+              },
+              {
+                "line": 17,
+                "value": "#    Then I click on apply filters"
+              }
+            ],
+            "line": 18,
+            "name": "I select list of courses and Add them to the application",
+            "match": {
+              "location": "CoursePreferenceStep.i_select_list_of_courses_and_Add_them_to_the_application()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5133770977,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I click AddCourse",
+            "match": {
+              "location": "CoursePreferenceStep.iClickAddCourse()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2128093502,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I click CloseSearch",
+            "match": {
+              "location": "CoursePreferenceStep.iClickCloseSearch()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4417780817,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I should see the list of courses added 1 to the application",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 39
+                }
+              ],
+              "location": "CoursePreferenceStep.iShouldSeeTheListOfCoursesAddedCoursePreToTheApplication(String)"
+            },
+            "matchedColumns": [
+              7
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@CoursePreference_Test"
+          }
+        ]
+      }
+    ],
+    "name": "Applicant Course Preference Feature",
+    "description": "Students can select and add courses to their application",
+    "id": "applicant-course-preference-feature",
+    "keyword": "Feature",
+    "uri": "file3_AddCoursePreference.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 28,
+        "name": "Applicant Add qualification to their application",
+        "description": "",
+        "id": "applicant-myqualification-feature;applicant-add-qualification-to-their-application;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2124614237,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 6,
+                "value": "#    Given I navigate to the AA portal login page"
+              },
+              {
+                "line": 7,
+                "value": "#    And I entered \u003cusername\u003e and \u003cpassword\u003e"
+              },
+              {
+                "line": 8,
+                "value": "#    And I click login button"
+              },
+              {
+                "line": 9,
+                "value": "#    And I click Create New Application button"
+              }
+            ],
+            "line": 10,
+            "name": "I click Add New Qualification button",
+            "match": {
+              "location": "AddQualificationStep.i_click_Add_New_Qualification_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2099653943,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I select QualificationType from qualification Tertiary Education/Post Secondary",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Tertiary Education/Post Secondary",
+                  "offset": 46
+                }
+              ],
+              "location": "AddQualificationStep.iSelectQualificationTypeFromQualificationQualType(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2130903854,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I Select Country Australia where i studied",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Australia",
+                  "offset": 17
+                }
+              ],
+              "location": "AddQualificationStep.i_Select_Country_Australia_where_i_studied(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1365228651,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I select Firstyear Enrolled 2006",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2006",
+                  "offset": 28
+                }
+              ],
+              "location": "AddQualificationStep.i_select_Firstyear_Enrolled(String)"
+            },
+            "matchedColumns": [
+              4
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1195842372,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I select Lastyear Enrolled 2012",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2012",
+                  "offset": 27
+                }
+              ],
+              "location": "AddQualificationStep.i_select_Lastyear_Enrolled(String)"
+            },
+            "matchedColumns": [
+              5
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1203044560,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I select Qualification Masters in IT",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Masters in IT",
+                  "offset": 23
+                }
+              ],
+              "location": "AddQualificationStep.i_select_Qualification_Masters_in_IT(String)"
+            },
+            "matchedColumns": [
+              6
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6326852011,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I select Institution SWINBURNE TAFE",
+            "match": {
+              "arguments": [
+                {
+                  "val": "SWINBURNE TAFE",
+                  "offset": 21
+                }
+              ],
+              "location": "AddQualificationStep.i_select_Institution_SWINBURNE_TAFE(String)"
+            },
+            "matchedColumns": [
+              7
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2262508005,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I select Level of Completion SUCCESSFULLY COMPLETED AND OBTAINED",
+            "match": {
+              "arguments": [
+                {
+                  "val": "SUCCESSFULLY COMPLETED AND OBTAINED",
+                  "offset": 29
+                }
+              ],
+              "location": "AddQualificationStep.i_select_Level_of_Completion_SUCCESSFULLY_COMPLETED_AND_OBTAINED(String)"
+            },
+            "matchedColumns": [
+              8
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1094975783,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I select a file to upload filename",
+            "match": {
+              "location": "AddQualificationStep.i_select_a_file_to_upload_filename()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1174686806,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I select Document Type Results from tertiary studies",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Results from tertiary studies",
+                  "offset": 23
+                }
+              ],
+              "location": "AddQualificationStep.i_select_Document_Type_Results_from_tertiary_studies(String)"
+            },
+            "matchedColumns": [
+              9
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1167520585,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I set Comments into Enter Comments in TextArea box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Enter Comments in TextArea",
+                  "offset": 20
+                }
+              ],
+              "location": "AddQualificationStep.i_set_Comments_into_Enter_Comments_in_TextArea_box(String)"
+            },
+            "matchedColumns": [
+              10
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5644393190,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I click save to save the Qualification",
+            "match": {
+              "location": "AddQualificationStep.i_click_save_to_save_the_Qualification()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1999889984,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I verify the Qualification from application Grid",
+            "match": {
+              "location": "AddQualificationStep.i_verify_the_Qualification_from_application_Grid()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@Add_Qual"
+          }
+        ]
+      }
+    ],
+    "name": "Applicant MyQualification Feature",
+    "description": "Students can add qualification details to their application",
+    "id": "applicant-myqualification-feature",
+    "keyword": "Feature",
+    "uri": "file4_AddQualification.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 16,
+        "name": "Applicant Add credit intention to their Application",
+        "description": "",
+        "id": "credit-intention-feature;applicant-add-credit-intention-to-their-application;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2153061556,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 5,
+                "value": "#    Given I navigate to the AA portal login page"
+              },
+              {
+                "line": 6,
+                "value": "#    And I entered \u003cusername\u003e and \u003cpassword\u003e"
+              },
+              {
+                "line": 7,
+                "value": "#    And I click login button"
+              },
+              {
+                "line": 8,
+                "value": "#    And I click Create New Application button"
+              }
+            ],
+            "line": 9,
+            "name": "I select credit intention Yes",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Yes",
+                  "offset": 26
+                }
+              ],
+              "location": "AddCreditIntentionStep.i_select_credit_intention_Yes(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@Add_Credit"
+          }
+        ]
+      }
+    ],
+    "name": "Credit Intention Feature",
+    "description": "This feature deals with the Credit functionality of the application",
+    "id": "credit-intention-feature",
+    "keyword": "Feature",
+    "uri": "file5_AddCreditIntention.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 21,
+        "name": "Applicant Add work experience to their application",
+        "description": "",
+        "id": "applicant-workexperience-feature;applicant-add-work-experience-to-their-application;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1160602960,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 6,
+                "value": "#    Given I navigate to the AA portal login page"
+              },
+              {
+                "line": 7,
+                "value": "#    And I entered \u003cusername\u003e and \u003cpassword\u003e"
+              },
+              {
+                "line": 8,
+                "value": "#    And I click login button"
+              },
+              {
+                "line": 9,
+                "value": "#    And I click Create New Application button"
+              }
+            ],
+            "line": 10,
+            "name": "I click Add work experience button",
+            "match": {
+              "location": "AddWorkExperinceStep.i_click_Add_work_experience_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1123645601,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I set the position Test Manager",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Test Manager",
+                  "offset": 19
+                }
+              ],
+              "location": "AddWorkExperinceStep.iSetThePositionPosition(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 719145724,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I set the employer Monash University",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Monash University",
+                  "offset": 19
+                }
+              ],
+              "location": "AddWorkExperinceStep.i_set_the_employer_employer(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 755774797,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I Set Start Date",
+            "match": {
+              "location": "AddWorkExperinceStep.i_Set_Start_Date()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2182365026,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I Set End Date",
+            "match": {
+              "location": "AddWorkExperinceStep.i_Set_End_Date()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5148645037,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I Click on Save button From Work Experience",
+            "match": {
+              "location": "AddWorkExperinceStep.i_Click_on_Save_button_From_Work_Experience()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@AddWorkExperience"
+          }
+        ]
+      }
+    ],
+    "name": "Applicant WorkExperience Feature",
+    "description": "Students can add work experience details to their application",
+    "id": "applicant-workexperience-feature",
+    "keyword": "Feature",
+    "uri": "file6_AddWorkExperince.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 21,
+        "name": "Applicant Add work experience to their application",
+        "description": "",
+        "id": "applicant-workexperience-feature;applicant-add-work-experience-to-their-application;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5126971478,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 7,
+                "value": "#    Given I navigate to the AA portal login page"
+              },
+              {
+                "line": 8,
+                "value": "#    And I entered \u003cusername\u003e and \u003cpassword\u003e"
+              },
+              {
+                "line": 9,
+                "value": "#    And I click login button"
+              },
+              {
+                "line": 10,
+                "value": "#    And I click Create New Application button"
+              }
+            ],
+            "line": 11,
+            "name": "I click on Add New Document button",
+            "match": {
+              "location": "AddAdditionalDocumentsStep.iClickOnAddNewDocumentButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1109220422,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I Select upload button to choose a file  to upload",
+            "match": {
+              "location": "AddAdditionalDocumentsStep.i_Select_upload_button_to_choose_a_file_to_upload()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1168679988,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I select DocumentType Proof of citizenship/residency or identity From Document attachment Section",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Proof of citizenship/residency or identity",
+                  "offset": 22
+                }
+              ],
+              "location": "AddAdditionalDocumentsStep.i_select_DocumentType_Proof_of_citizenship_residency_or_identity_From_Document_attachment_Section(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1161150926,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I Set the comments in Textbox Enter Application Document Comments in TextArea from documents",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Enter Application Document Comments in TextArea",
+                  "offset": 30
+                }
+              ],
+              "location": "AddAdditionalDocumentsStep.i_Set_the_comments_in_Textbox_Enter_Application_Document_Comments_in_TextArea_from_documents(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8968840005,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I click on Upload button Upload from Documents section",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Upload",
+                  "offset": 25
+                }
+              ],
+              "location": "AddAdditionalDocumentsStep.i_click_on_Upload_button_Upload_from_Documents_section(String)"
+            },
+            "matchedColumns": [
+              4
+            ],
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@AddAdditionalDocuments"
+          }
+        ]
+      }
+    ],
+    "name": "Applicant WorkExperience Feature",
+    "description": "Students can add work experience details to their application",
+    "id": "applicant-workexperience-feature",
+    "keyword": "Feature",
+    "uri": "file7_AddAdditionalDocuemnts.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 22,
+        "name": "Applicant submit their application Successfully",
+        "description": "",
+        "id": "application-submission-feature;applicant-submit-their-application-successfully;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5194515830,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 6,
+                "value": "#    Given I navigate to the AA portal login page"
+              },
+              {
+                "line": 7,
+                "value": "#    And I entered \u003cusername\u003e and \u003cpassword\u003e"
+              },
+              {
+                "line": 8,
+                "value": "#    And I click login button"
+              },
+              {
+                "line": 9,
+                "value": "#    And I click Create New Application button"
+              }
+            ],
+            "line": 10,
+            "name": "I Click on Continue button Continue",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Continue",
+                  "offset": 27
+                }
+              ],
+              "location": "SubmitTheApplicationStep.i_Click_on_Continue_button_Continue(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5229997136,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I click on Continue button Continue  on review page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Continue",
+                  "offset": 27
+                }
+              ],
+              "location": "SubmitTheApplicationStep.i_click_on_Continue_button_Continue_on_review_page(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4126038102,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I Click on Accept and Submit button after review",
+            "match": {
+              "location": "SubmitTheApplicationStep.iClickOnAcceptAndSubmitButtonAfterReview()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 92991963,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I capture receipt number ApplicationID after application submission",
+            "match": {
+              "location": "SubmitTheApplicationStep.iCaptureReceiptNumberApplicationIDAfterApplicationSubmission()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9278781245,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Logout \u003cLogout\u003e of the Application",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u003cLogout\u003e",
+                  "offset": 7
+                }
+              ],
+              "location": "GenerateRegoEmailStep.logoutLogoutOfTheApplication(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 821637169,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Close the browser",
+            "match": {
+              "location": "GenerateRegoEmailStep.closeTheBrowser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@SubmitApplication"
+          }
+        ]
+      }
+    ],
+    "name": "Application Submission Feature",
+    "description": "This feature deals with the Submit functionality of the application",
+    "id": "application-submission-feature",
+    "keyword": "Feature",
+    "uri": "file8_SubmitTheApplication.feature"
   }
 ]

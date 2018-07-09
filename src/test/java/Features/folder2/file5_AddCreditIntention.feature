@@ -13,4 +13,4 @@ Feature: Credit Intention Feature
     Examples:
 
       |   username                         |  password       |  intention     |    Logout    |
-      |   rupa12.tanneeru12@mailinator.com   |  monash@2017    |   Yes          |    Logout    |
+      |   rupa12.tanneeru12@mailinator.com   |  monash@2017  |   Yes          |    Logout    |

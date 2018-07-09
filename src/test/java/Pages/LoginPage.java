@@ -37,8 +37,10 @@ public class LoginPage extends BaseUtil{
   @FindBy(how= How.XPATH, using = "//*[@placeholder='Password']")
     public WebElement txtPassWord;
 
-  @FindBy(how= How.XPATH, using = "//*[@id='content']/div/div[2]/div/div[4]/div/div[3]/button/span")
+  @FindBy(how= How.XPATH, using = "//*[@id='centerPanel']/div/div[2]/div/div[4]/div/div[3]/button/span")
     public WebElement btnLogin;
+
+
 
 //
 //    public static void setWindows()
